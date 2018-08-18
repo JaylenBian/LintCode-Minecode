@@ -22,16 +22,16 @@ using namespace std;
 
 const int MAXN = 1e5+10;
 
+// Solution 1: 数组版
+/*
 class Trie {
 public:
-    /** Initialize your data structure here. */
     Trie() {
         tot = 0;
         memset(isWord, 0, sizeof(isWord));
         memset(trie, 0, sizeof(trie));
     }
     
-    /** Inserts a word into the trie. */
     void insert(string word) {
         int p = 0;
         for (int i = 0; i < word.length(); ++i) {
@@ -44,7 +44,6 @@ public:
         isWord[p] = true;
     }
     
-    /** Returns if the word is in the trie. */
     bool search(string word) {
         int p = 0;
         for (int i = 0; i < word.length(); ++i) {
@@ -55,7 +54,6 @@ public:
         return isWord[p];
     }
     
-    /** Returns if there is any word in the trie that starts with the given prefix. */
     bool startsWith(string prefix) {
         int p = 0;
         for (int i = 0; i < prefix.length(); ++i) {
@@ -70,7 +68,56 @@ private:
     bool isWord[MAXN];
     int trie[MAXN][26];
 };
+*/
 
+// Solution 2: 指针版
+struct TrieNode {
+    TrieNode *node[26];
+    bool isWord;
+    TrieNode() {
+        for (int i = 0; i < 26; ++i) node[i] = NULL;
+        isWord = false;
+    }
+};
+
+class Trie {
+public:
+    Trie() {
+        root = new TrieNode();
+    }
+    
+    void insert(string word) {
+        TrieNode *p = root;
+        for (int i = 0; i < word.length(); ++i) {
+            int val = word[i] - 'a';
+            if (p->node[val] == NULL) p->node[val] = new TrieNode();
+            p = p->node[val];
+        }
+        p->isWord = true;
+    }
+    
+    bool search(string word) {
+        TrieNode *p = root;
+        for (int i = 0; i < word.length(); ++i) {
+            int val = word[i] - 'a';
+            if (p->node[val] == NULL) return false;
+            p = p->node[val];
+        }
+        return p->isWord;
+    }
+    
+    bool startsWith(string prefix) {
+        TrieNode *p = root;
+        for (int i = 0; i < prefix.length(); ++i) {
+            int val = prefix[i] - 'a';
+            if (p->node[val] == NULL) return false;
+            p = p->node[val];
+        }
+        return true;
+    }
+private:
+    TrieNode *root;
+};
 
 int main(int argc, const char * argv[]) {
     
