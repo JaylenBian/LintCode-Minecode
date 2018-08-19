@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C66D67521292DBC00B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67421292DBC00B66906 /* main.cpp */; };
 		8C7A1D662128468D00D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D652128468D00D4979E /* main.cpp */; };
 		8C7A1D7121286CC500D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D7021286CC500D4979E /* main.cpp */; };
 		8C7E84FC212693C500621AD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E84FB212693C500621AD4 /* main.cpp */; };
@@ -18,6 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C66D67021292DBC00B66906 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C7A1D612128468D00D4979E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +103,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. 左旋右旋迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C66D67421292DBC00B66906 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7A1D632128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "442. 实现 Trie（前缀树）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7A1D652128468D00D4979E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7A1D6E21286CC500D4979E /* 134. LRU缓存策略 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "134. LRU缓存策略"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +124,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C66D66F21292DBC00B66906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7A1D602128468D00D4979E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +190,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C66D67321292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {
+			isa = PBXGroup;
+			children = (
+				8C66D67421292DBC00B66906 /* main.cpp */,
+			);
+			path = "540. 左旋右旋迭代器";
+			sourceTree = "<group>";
+		};
 		8C7A1D642128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +241,7 @@
 				8C7E84FA212693C500621AD4 /* 132. 单词搜索 II */,
 				8C7A1D642128468D00D4979E /* 442. 实现 Trie（前缀树） */,
 				8C7A1D6F21286CC500D4979E /* 134. LRU缓存策略 */,
+				8C66D67321292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -229,6 +257,7 @@
 				8C7E8504212694FD00621AD4 /* 123. 单词搜索 */,
 				8C7A1D632128468D00D4979E /* 442. 实现 Trie（前缀树） */,
 				8C7A1D6E21286CC500D4979E /* 134. LRU缓存策略 */,
+				8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +297,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C66D67121292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C66D67821292DBC00B66906 /* Build configuration list for PBXNativeTarget "540. 左旋右旋迭代器" */;
+			buildPhases = (
+				8C66D66E21292DBC00B66906 /* Sources */,
+				8C66D66F21292DBC00B66906 /* Frameworks */,
+				8C66D67021292DBC00B66906 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "540. 左旋右旋迭代器";
+			productName = "540. 左旋右旋迭代器";
+			productReference = 8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C7A1D622128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7A1D692128468D00D4979E /* Build configuration list for PBXNativeTarget "442. 实现 Trie（前缀树）" */;
@@ -413,6 +459,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = minecode;
 				TargetAttributes = {
+					8C66D67121292DBC00B66906 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C7A1D622128468D00D4979E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -459,11 +508,20 @@
 				8C7E8503212694FD00621AD4 /* 123. 单词搜索 */,
 				8C7A1D622128468D00D4979E /* 442. 实现 Trie（前缀树） */,
 				8C7A1D6D21286CC500D4979E /* 134. LRU缓存策略 */,
+				8C66D67121292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C66D66E21292DBC00B66906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C66D67521292DBC00B66906 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C7A1D5F2128468D00D4979E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -531,6 +589,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C66D67621292DBC00B66906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C66D67721292DBC00B66906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C7A1D672128468D00D4979E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -787,6 +863,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C66D67821292DBC00B66906 /* Build configuration list for PBXNativeTarget "540. 左旋右旋迭代器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C66D67621292DBC00B66906 /* Debug */,
+				8C66D67721292DBC00B66906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C7A1D692128468D00D4979E /* Build configuration list for PBXNativeTarget "442. 实现 Trie（前缀树）" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
