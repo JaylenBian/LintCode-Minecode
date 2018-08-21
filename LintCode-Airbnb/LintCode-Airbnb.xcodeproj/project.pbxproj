@@ -11,6 +11,7 @@
 		8C66D6802129315400B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67F2129315400B66906 /* main.cpp */; };
 		8C688D92212C320900A152A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C688D91212C320900A152A9 /* main.cpp */; };
 		8C688D9D212C351100A152A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C688D9C212C351100A152A9 /* main.cpp */; };
+		8C688DA8212C51A000A152A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C688DA7212C51A000A152A9 /* main.cpp */; };
 		8C7A1D662128468D00D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D652128468D00D4979E /* main.cpp */; };
 		8C7A1D7121286CC500D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D7021286CC500D4979E /* main.cpp */; };
 		8C7E84FC212693C500621AD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E84FB212693C500621AD4 /* main.cpp */; };
@@ -51,6 +52,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C688D98212C351100A152A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C688DA3212C51A000A152A9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -151,6 +161,8 @@
 		8C688D91212C320900A152A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C688D9A212C351100A152A9 /* 616. 安排课程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "616. 安排课程"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C688D9C212C351100A152A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C688DA5212C51A000A152A9 /* 380. 两个链表的交叉 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "380. 两个链表的交叉"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C688DA7212C51A000A152A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7A1D632128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "442. 实现 Trie（前缀树）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7A1D652128468D00D4979E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7A1D6E21286CC500D4979E /* 134. LRU缓存策略 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "134. LRU缓存策略"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +206,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C688D97212C351100A152A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C688DA2212C51A000A152A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,6 +317,14 @@
 			path = "616. 安排课程";
 			sourceTree = "<group>";
 		};
+		8C688DA6212C51A000A152A9 /* 380. 两个链表的交叉 */ = {
+			isa = PBXGroup;
+			children = (
+				8C688DA7212C51A000A152A9 /* main.cpp */,
+			);
+			path = "380. 两个链表的交叉";
+			sourceTree = "<group>";
+		};
 		8C7A1D642128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +373,7 @@
 				8CF7CEB8212BA7750039A307 /* 127. 拓扑排序 */,
 				8C688D90212C320900A152A9 /* 615. 课程表 */,
 				8C688D9B212C351100A152A9 /* 616. 安排课程 */,
+				8C688DA6212C51A000A152A9 /* 380. 两个链表的交叉 */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -366,6 +394,7 @@
 				8CF7CEB7212BA7750039A307 /* 127. 拓扑排序 */,
 				8C688D8F212C320900A152A9 /* 615. 课程表 */,
 				8C688D9A212C351100A152A9 /* 616. 安排课程 */,
+				8C688DA5212C51A000A152A9 /* 380. 两个链表的交叉 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -479,6 +508,23 @@
 			name = "616. 安排课程";
 			productName = "616. 安排课程";
 			productReference = 8C688D9A212C351100A152A9 /* 616. 安排课程 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C688DA4212C51A000A152A9 /* 380. 两个链表的交叉 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C688DA9212C51A000A152A9 /* Build configuration list for PBXNativeTarget "380. 两个链表的交叉" */;
+			buildPhases = (
+				8C688DA1212C51A000A152A9 /* Sources */,
+				8C688DA2212C51A000A152A9 /* Frameworks */,
+				8C688DA3212C51A000A152A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "380. 两个链表的交叉";
+			productName = "380. 两个链表的交叉";
+			productReference = 8C688DA5212C51A000A152A9 /* 380. 两个链表的交叉 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C7A1D622128468D00D4979E /* 442. 实现 Trie（前缀树） */ = {
@@ -655,6 +701,9 @@
 					8C688D99212C351100A152A9 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					8C688DA4212C51A000A152A9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C7A1D622128468D00D4979E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -709,6 +758,7 @@
 				8CF7CEB6212BA7750039A307 /* 127. 拓扑排序 */,
 				8C688D8E212C320900A152A9 /* 615. 课程表 */,
 				8C688D99212C351100A152A9 /* 616. 安排课程 */,
+				8C688DA4212C51A000A152A9 /* 380. 两个链表的交叉 */,
 			);
 		};
 /* End PBXProject section */
@@ -743,6 +793,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C688D9D212C351100A152A9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C688DA1212C51A000A152A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C688DA8212C51A000A152A9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -885,6 +943,24 @@
 			name = Debug;
 		};
 		8C688DA0212C351100A152A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C688DAA212C51A000A152A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C688DAB212C51A000A152A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1199,6 +1275,15 @@
 			buildConfigurations = (
 				8C688D9F212C351100A152A9 /* Debug */,
 				8C688DA0212C351100A152A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C688DA9212C51A000A152A9 /* Build configuration list for PBXNativeTarget "380. 两个链表的交叉" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C688DAA212C51A000A152A9 /* Debug */,
+				8C688DAB212C51A000A152A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
