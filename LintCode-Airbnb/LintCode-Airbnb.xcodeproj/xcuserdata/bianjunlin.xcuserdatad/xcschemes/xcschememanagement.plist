@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>127. 拓扑排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>132. 单词搜索 II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

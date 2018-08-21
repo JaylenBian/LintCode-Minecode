@@ -17,6 +17,7 @@
 		8CAE13A121246EDD006BE59B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE13A021246EDD006BE59B /* main.cpp */; };
 		8CAE13AC2124852C006BE59B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE13AB2124852C006BE59B /* main.cpp */; };
 		8CAE13B721248B16006BE59B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE13B621248B16006BE59B /* main.cpp */; };
+		8CF7CEBA212BA7750039A307 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7CEB9212BA7750039A307 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CF7CEB5212BA7750039A307 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +143,8 @@
 		8CAE13AB2124852C006BE59B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CAE13B421248B16006BE59B /* 104. Merge K Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104. Merge K Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CAE13B621248B16006BE59B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CF7CEB7212BA7750039A307 /* 127. 拓扑排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "127. 拓扑排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF7CEB9212BA7750039A307 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CF7CEB4212BA7750039A307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -270,6 +289,7 @@
 				8C7A1D6F21286CC500D4979E /* 134. LRU缓存策略 */,
 				8C66D67321292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 				8C66D67E2129315400B66906 /* 541. 左旋右旋迭代器 II */,
+				8CF7CEB8212BA7750039A307 /* 127. 拓扑排序 */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,6 +307,7 @@
 				8C7A1D6E21286CC500D4979E /* 134. LRU缓存策略 */,
 				8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 				8C66D67D2129315400B66906 /* 541. 左旋右旋迭代器 II */,
+				8CF7CEB7212BA7750039A307 /* 127. 拓扑排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,6 +342,14 @@
 				8CAE13B621248B16006BE59B /* main.cpp */,
 			);
 			path = "104. Merge K Sorted Lists";
+			sourceTree = "<group>";
+		};
+		8CF7CEB8212BA7750039A307 /* 127. 拓扑排序 */ = {
+			isa = PBXGroup;
+			children = (
+				8CF7CEB9212BA7750039A307 /* main.cpp */,
+			);
+			path = "127. 拓扑排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +525,23 @@
 			productReference = 8CAE13B421248B16006BE59B /* 104. Merge K Sorted Lists */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CF7CEB6212BA7750039A307 /* 127. 拓扑排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF7CEBD212BA7750039A307 /* Build configuration list for PBXNativeTarget "127. 拓扑排序" */;
+			buildPhases = (
+				8CF7CEB3212BA7750039A307 /* Sources */,
+				8CF7CEB4212BA7750039A307 /* Frameworks */,
+				8CF7CEB5212BA7750039A307 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "127. 拓扑排序";
+			productName = "127. 拓扑排序";
+			productReference = 8CF7CEB7212BA7750039A307 /* 127. 拓扑排序 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -535,6 +581,9 @@
 					8CAE13B321248B16006BE59B = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					8CF7CEB6212BA7750039A307 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CAE138B21246D3B006BE59B /* Build configuration list for PBXProject "LintCode-Airbnb" */;
@@ -559,6 +608,7 @@
 				8C7A1D6D21286CC500D4979E /* 134. LRU缓存策略 */,
 				8C66D67121292DBC00B66906 /* 540. 左旋右旋迭代器 */,
 				8C66D67C2129315400B66906 /* 541. 左旋右旋迭代器 II */,
+				8CF7CEB6212BA7750039A307 /* 127. 拓扑排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -641,6 +691,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CAE13B721248B16006BE59B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF7CEB3212BA7750039A307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF7CEBA212BA7750039A307 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,6 +994,24 @@
 			};
 			name = Release;
 		};
+		8CF7CEBB212BA7750039A307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF7CEBC212BA7750039A307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1034,6 +1110,15 @@
 			buildConfigurations = (
 				8CAE13B921248B16006BE59B /* Debug */,
 				8CAE13BA21248B16006BE59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF7CEBD212BA7750039A307 /* Build configuration list for PBXNativeTarget "127. 拓扑排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF7CEBB212BA7750039A307 /* Debug */,
+				8CF7CEBC212BA7750039A307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
