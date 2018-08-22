@@ -16,6 +16,8 @@
 		8C7A1D662128468D00D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D652128468D00D4979E /* main.cpp */; };
 		8C7A1D7121286CC500D4979E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A1D7021286CC500D4979E /* main.cpp */; };
 		8C7C599F212D291900743358 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C599E212D291900743358 /* main.cpp */; };
+		8C7C59AC212D615D00743358 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C59AB212D615D00743358 /* main.cpp */; };
+		8C7C59B7212D653D00743358 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C59B6212D653D00743358 /* main.cpp */; };
 		8C7E84FC212693C500621AD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E84FB212693C500621AD4 /* main.cpp */; };
 		8C7E8507212694FD00621AD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E8506212694FD00621AD4 /* main.cpp */; };
 		8C99AC87212D100E00039647 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C99AC86212D100E00039647 /* main.cpp */; };
@@ -100,6 +102,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C7C599A212D291900743358 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7C59A7212D615C00743358 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7C59B2212D653C00743358 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -201,6 +221,10 @@
 		8C7A1D7021286CC500D4979E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7C599C212D291900743358 /* 436. 最大正方形 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "436. 最大正方形"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7C599E212D291900743358 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7C59A9212D615C00743358 /* 978. Basic Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "978. Basic Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7C59AB212D615D00743358 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7C59B4212D653C00743358 /* 980. Basic Calculator II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "980. Basic Calculator II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7C59B6212D653D00743358 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7E84F9212693C500621AD4 /* 132. 单词搜索 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "132. 单词搜索 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7E84FB212693C500621AD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7E8504212694FD00621AD4 /* 123. 单词搜索 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "123. 单词搜索"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,6 +301,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C7C5999212D291900743358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7C59A6212D615C00743358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7C59B1212D653C00743358 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,6 +452,22 @@
 			path = "436. 最大正方形";
 			sourceTree = "<group>";
 		};
+		8C7C59AA212D615D00743358 /* 978. Basic Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C59AB212D615D00743358 /* main.cpp */,
+			);
+			path = "978. Basic Calculator";
+			sourceTree = "<group>";
+		};
+		8C7C59B5212D653D00743358 /* 980. Basic Calculator II */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C59B6212D653D00743358 /* main.cpp */,
+			);
+			path = "980. Basic Calculator II";
+			sourceTree = "<group>";
+		};
 		8C7E84FA212693C500621AD4 /* 132. 单词搜索 II */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +512,8 @@
 				8C688DB1212C599100A152A9 /* 392. 打劫房屋 */,
 				8C99AC85212D100E00039647 /* 363. 接雨水 */,
 				8C7C599D212D291900743358 /* 436. 最大正方形 */,
+				8C7C59AA212D615D00743358 /* 978. Basic Calculator */,
+				8C7C59B5212D653D00743358 /* 980. Basic Calculator II */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -482,6 +538,8 @@
 				8C688DB0212C599000A152A9 /* 392. 打劫房屋 */,
 				8C99AC84212D100E00039647 /* 363. 接雨水 */,
 				8C7C599C212D291900743358 /* 436. 最大正方形 */,
+				8C7C59A9212D615C00743358 /* 978. Basic Calculator */,
+				8C7C59B4212D653C00743358 /* 980. Basic Calculator II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -682,6 +740,40 @@
 			productReference = 8C7C599C212D291900743358 /* 436. 最大正方形 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7C59A8212D615C00743358 /* 978. Basic Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7C59AF212D615D00743358 /* Build configuration list for PBXNativeTarget "978. Basic Calculator" */;
+			buildPhases = (
+				8C7C59A5212D615C00743358 /* Sources */,
+				8C7C59A6212D615C00743358 /* Frameworks */,
+				8C7C59A7212D615C00743358 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "978. Basic Calculator";
+			productName = "978. Basic Calculator";
+			productReference = 8C7C59A9212D615C00743358 /* 978. Basic Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C7C59B3212D653C00743358 /* 980. Basic Calculator II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7C59B8212D653D00743358 /* Build configuration list for PBXNativeTarget "980. Basic Calculator II" */;
+			buildPhases = (
+				8C7C59B0212D653C00743358 /* Sources */,
+				8C7C59B1212D653C00743358 /* Frameworks */,
+				8C7C59B2212D653C00743358 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "980. Basic Calculator II";
+			productName = "980. Basic Calculator II";
+			productReference = 8C7C59B4212D653C00743358 /* 980. Basic Calculator II */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C7E84F8212693C500621AD4 /* 132. 单词搜索 II */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7E84FF212693C500621AD4 /* Build configuration list for PBXNativeTarget "132. 单词搜索 II" */;
@@ -854,6 +946,12 @@
 					8C7C599B212D291900743358 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					8C7C59A8212D615C00743358 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8C7C59B3212D653C00743358 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C7E84F8212693C500621AD4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -909,6 +1007,8 @@
 				8C688DAF212C599000A152A9 /* 392. 打劫房屋 */,
 				8C99AC83212D100E00039647 /* 363. 接雨水 */,
 				8C7C599B212D291900743358 /* 436. 最大正方形 */,
+				8C7C59A8212D615C00743358 /* 978. Basic Calculator */,
+				8C7C59B3212D653C00743358 /* 980. Basic Calculator II */,
 			);
 		};
 /* End PBXProject section */
@@ -983,6 +1083,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7C599F212D291900743358 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7C59A5212D615C00743358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7C59AC212D615D00743358 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7C59B0212D653C00743358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7C59B7212D653D00743358 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1207,6 +1323,42 @@
 			name = Debug;
 		};
 		8C7C59A1212D291900743358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7C59AD212D615D00743358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7C59AE212D615D00743358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7C59B9212D653D00743358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7C59BA212D653D00743358 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1548,6 +1700,24 @@
 			buildConfigurations = (
 				8C7C59A0212D291900743358 /* Debug */,
 				8C7C59A1212D291900743358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7C59AF212D615D00743358 /* Build configuration list for PBXNativeTarget "978. Basic Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7C59AD212D615D00743358 /* Debug */,
+				8C7C59AE212D615D00743358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7C59B8212D653D00743358 /* Build configuration list for PBXNativeTarget "980. Basic Calculator II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7C59B9212D653D00743358 /* Debug */,
+				8C7C59BA212D653D00743358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
