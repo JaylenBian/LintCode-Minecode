@@ -29,10 +29,25 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>363. 接雨水.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>380. 两个链表的交叉.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
+		</dict>
+		<key>392. 打劫房屋.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>436. 最大正方形.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 		<key>442. 实现 Trie（前缀树）.xcscheme</key>
 		<dict>
