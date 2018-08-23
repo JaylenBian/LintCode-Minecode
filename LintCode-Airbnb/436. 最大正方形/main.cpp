@@ -35,7 +35,10 @@ public:
         int n = (int)matrix.size(), m = (int)matrix[0].size();
         int maxx = 0;
         int **dp = new int *[n];
-        for (int i = 0; i < n; ++i) dp[i] = new int[m];
+        for (int i = 0; i < n; ++i) {
+            dp[i] = new int[m];
+            memset(dp[i], 0, m * sizeof(int));
+        }
         
         for (int i = 0; i < n; ++i) dp[i][0] = matrix[i][0];
         for (int i = 0; i < m; ++i) dp[0][i] = matrix[0][i];
@@ -60,9 +63,9 @@ int main() {
     Solution sol = Solution();
     vector<vector<int>> v = {
         {1, 0, 1, 0, 0},
-        {1,0,1,1,1},
-        {1,1,1,1,1},
-        {1,0,0,1,0}
+        {1, 0, 1, 1, 1},
+        {1, 1, 1, 1, 1},
+        {1, 0, 0, 1, 0}
     };
     int res = sol.maxSquare(v);
     cout << res << endl;
