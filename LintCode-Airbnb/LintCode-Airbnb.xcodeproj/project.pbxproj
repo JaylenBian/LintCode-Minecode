@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C5317F6212EE043000694EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5317F5212EE043000694EE /* main.cpp */; };
 		8C66D67521292DBC00B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67421292DBC00B66906 /* main.cpp */; };
 		8C66D6802129315400B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67F2129315400B66906 /* main.cpp */; };
 		8C688D92212C320900A152A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C688D91212C320900A152A9 /* main.cpp */; };
@@ -29,6 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C5317F1212EE043000694EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C66D67021292DBC00B66906 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +213,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1029. Cheapest Flights Within K Stops"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5317F5212EE043000694EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. 左旋右旋迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C66D67421292DBC00B66906 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C66D67D2129315400B66906 /* 541. 左旋右旋迭代器 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "541. 左旋右旋迭代器 II"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +256,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C5317F0212EE043000694EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C66D66F21292DBC00B66906 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,6 +399,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
+			isa = PBXGroup;
+			children = (
+				8C5317F5212EE043000694EE /* main.cpp */,
+			);
+			path = "1029. Cheapest Flights Within K Stops";
+			sourceTree = "<group>";
+		};
 		8C66D67321292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +541,7 @@
 				8C7C599D212D291900743358 /* 436. 最大正方形 */,
 				8C7C59AA212D615D00743358 /* 978. Basic Calculator */,
 				8C7C59B5212D653D00743358 /* 980. Basic Calculator II */,
+				8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -540,6 +568,7 @@
 				8C7C599C212D291900743358 /* 436. 最大正方形 */,
 				8C7C59A9212D615C00743358 /* 978. Basic Calculator */,
 				8C7C59B4212D653C00743358 /* 980. Basic Calculator II */,
+				8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -587,6 +616,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5317F9212EE043000694EE /* Build configuration list for PBXNativeTarget "1029. Cheapest Flights Within K Stops" */;
+			buildPhases = (
+				8C5317EF212EE043000694EE /* Sources */,
+				8C5317F0212EE043000694EE /* Frameworks */,
+				8C5317F1212EE043000694EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1029. Cheapest Flights Within K Stops";
+			productName = "1029. Cheapest Flights Within K Stops";
+			productReference = 8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C66D67121292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C66D67821292DBC00B66906 /* Build configuration list for PBXNativeTarget "540. 左旋右旋迭代器" */;
@@ -919,6 +965,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = minecode;
 				TargetAttributes = {
+					8C5317F2212EE043000694EE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C66D67121292DBC00B66906 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1009,11 +1058,20 @@
 				8C7C599B212D291900743358 /* 436. 最大正方形 */,
 				8C7C59A8212D615C00743358 /* 978. Basic Calculator */,
 				8C7C59B3212D653C00743358 /* 980. Basic Calculator II */,
+				8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C5317EF212EE043000694EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5317F6212EE043000694EE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C66D66E21292DBC00B66906 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1169,6 +1227,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C5317F7212EE043000694EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C5317F8212EE043000694EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C66D67621292DBC00B66906 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1623,6 +1699,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C5317F9212EE043000694EE /* Build configuration list for PBXNativeTarget "1029. Cheapest Flights Within K Stops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5317F7212EE043000694EE /* Debug */,
+				8C5317F8212EE043000694EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C66D67821292DBC00B66906 /* Build configuration list for PBXNativeTarget "540. 左旋右旋迭代器" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
