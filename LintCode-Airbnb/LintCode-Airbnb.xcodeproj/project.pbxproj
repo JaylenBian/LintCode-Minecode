@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C501CB321305B360080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CB221305B360080D2DD /* main.cpp */; };
 		8C5317F6212EE043000694EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5317F5212EE043000694EE /* main.cpp */; };
 		8C66D67521292DBC00B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67421292DBC00B66906 /* main.cpp */; };
 		8C66D6802129315400B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67F2129315400B66906 /* main.cpp */; };
@@ -30,6 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C501CAE21305B360080D2DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C5317F1212EE043000694EE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +223,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C501CB021305B360080D2DD /* 175. 翻转二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "175. 翻转二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C501CB221305B360080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1029. Cheapest Flights Within K Stops"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5317F5212EE043000694EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. 左旋右旋迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +268,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C501CAD21305B360080D2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C5317F0212EE043000694EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +418,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C501CB121305B360080D2DD /* 175. 翻转二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				8C501CB221305B360080D2DD /* main.cpp */,
+			);
+			path = "175. 翻转二叉树";
+			sourceTree = "<group>";
+		};
 		8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +569,7 @@
 				8C7C59AA212D615D00743358 /* 978. Basic Calculator */,
 				8C7C59B5212D653D00743358 /* 980. Basic Calculator II */,
 				8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
+				8C501CB121305B360080D2DD /* 175. 翻转二叉树 */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -569,6 +597,7 @@
 				8C7C59A9212D615C00743358 /* 978. Basic Calculator */,
 				8C7C59B4212D653C00743358 /* 980. Basic Calculator II */,
 				8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
+				8C501CB021305B360080D2DD /* 175. 翻转二叉树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -616,6 +645,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C501CAF21305B360080D2DD /* 175. 翻转二叉树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C501CB621305B360080D2DD /* Build configuration list for PBXNativeTarget "175. 翻转二叉树" */;
+			buildPhases = (
+				8C501CAC21305B360080D2DD /* Sources */,
+				8C501CAD21305B360080D2DD /* Frameworks */,
+				8C501CAE21305B360080D2DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "175. 翻转二叉树";
+			productName = "175. 翻转二叉树";
+			productReference = 8C501CB021305B360080D2DD /* 175. 翻转二叉树 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C5317F9212EE043000694EE /* Build configuration list for PBXNativeTarget "1029. Cheapest Flights Within K Stops" */;
@@ -965,6 +1011,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = minecode;
 				TargetAttributes = {
+					8C501CAF21305B360080D2DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C5317F2212EE043000694EE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1059,11 +1108,20 @@
 				8C7C59A8212D615C00743358 /* 978. Basic Calculator */,
 				8C7C59B3212D653C00743358 /* 980. Basic Calculator II */,
 				8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */,
+				8C501CAF21305B360080D2DD /* 175. 翻转二叉树 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C501CAC21305B360080D2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C501CB321305B360080D2DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C5317EF212EE043000694EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1227,6 +1285,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C501CB421305B360080D2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C501CB521305B360080D2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C5317F7212EE043000694EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1699,6 +1775,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C501CB621305B360080D2DD /* Build configuration list for PBXNativeTarget "175. 翻转二叉树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C501CB421305B360080D2DD /* Debug */,
+				8C501CB521305B360080D2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C5317F9212EE043000694EE /* Build configuration list for PBXNativeTarget "1029. Cheapest Flights Within K Stops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

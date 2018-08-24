@@ -7,7 +7,7 @@
 		<key>1029. Cheapest Flights Within K Stops.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>16</integer>
 		</dict>
 		<key>104. Merge K Sorted Lists.xcscheme</key>
 		<dict>
@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>175. 翻转二叉树.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>363. 接雨水.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -52,7 +57,7 @@
 		<key>436. 最大正方形.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>17</integer>
 		</dict>
 		<key>442. 实现 Trie（前缀树）.xcscheme</key>
 		<dict>
@@ -92,12 +97,12 @@
 		<key>978. Basic Calculator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 		<key>980. Basic Calculator II.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>LintCode-Airbnb.xcscheme</key>
 		<dict>
