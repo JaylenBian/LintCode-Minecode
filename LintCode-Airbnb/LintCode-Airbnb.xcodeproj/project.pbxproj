@@ -10,6 +10,7 @@
 		8C501CB321305B360080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CB221305B360080D2DD /* main.cpp */; };
 		8C501CBE21310E120080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CBD21310E120080D2DD /* main.cpp */; };
 		8C501CC921311E2E0080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CC821311E2E0080D2DD /* main.cpp */; };
+		8C501CD4213132BF0080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CD3213132BF0080D2DD /* main.cpp */; };
 		8C5317F6212EE043000694EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5317F5212EE043000694EE /* main.cpp */; };
 		8C66D67521292DBC00B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67421292DBC00B66906 /* main.cpp */; };
 		8C66D6802129315400B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67F2129315400B66906 /* main.cpp */; };
@@ -52,6 +53,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C501CC421311E2E0080D2DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C501CCF213132BF0080D2DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -249,6 +259,8 @@
 		8C501CBD21310E120080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C501CC621311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7. 二叉树的序列化和反序列化"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C501CC821311E2E0080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "601. 摊平二维向量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C501CD3213132BF0080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1029. Cheapest Flights Within K Stops"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5317F5212EE043000694EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. 左旋右旋迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -307,6 +319,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C501CC321311E2E0080D2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C501CCE213132BF0080D2DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,6 +499,14 @@
 			path = "7. 二叉树的序列化和反序列化";
 			sourceTree = "<group>";
 		};
+		8C501CD2213132BF0080D2DD /* 601. 摊平二维向量 */ = {
+			isa = PBXGroup;
+			children = (
+				8C501CD3213132BF0080D2DD /* main.cpp */,
+			);
+			path = "601. 摊平二维向量";
+			sourceTree = "<group>";
+		};
 		8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
 			isa = PBXGroup;
 			children = (
@@ -626,6 +653,7 @@
 				8C501CB121305B360080D2DD /* 175. 翻转二叉树 */,
 				8C501CBC21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC721311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
+				8C501CD2213132BF0080D2DD /* 601. 摊平二维向量 */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -656,6 +684,7 @@
 				8C501CB021305B360080D2DD /* 175. 翻转二叉树 */,
 				8C501CBB21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC621311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
+				8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -752,6 +781,23 @@
 			name = "7. 二叉树的序列化和反序列化";
 			productName = "7. 二叉树的序列化和反序列化";
 			productReference = 8C501CC621311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C501CD0213132BF0080D2DD /* 601. 摊平二维向量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C501CD5213132BF0080D2DD /* Build configuration list for PBXNativeTarget "601. 摊平二维向量" */;
+			buildPhases = (
+				8C501CCD213132BF0080D2DD /* Sources */,
+				8C501CCE213132BF0080D2DD /* Frameworks */,
+				8C501CCF213132BF0080D2DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "601. 摊平二维向量";
+			productName = "601. 摊平二维向量";
+			productReference = 8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
@@ -1112,6 +1158,9 @@
 					8C501CC521311E2E0080D2DD = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					8C501CD0213132BF0080D2DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C5317F2212EE043000694EE = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1209,6 +1258,7 @@
 				8C501CAF21305B360080D2DD /* 175. 翻转二叉树 */,
 				8C501CBA21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC521311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
+				8C501CD0213132BF0080D2DD /* 601. 摊平二维向量 */,
 			);
 		};
 /* End PBXProject section */
@@ -1235,6 +1285,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C501CC921311E2E0080D2DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C501CCD213132BF0080D2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C501CD4213132BF0080D2DD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1447,6 +1505,24 @@
 			name = Debug;
 		};
 		8C501CCC21311E2E0080D2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C501CD6213132BF0080D2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C501CD7213132BF0080D2DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1950,6 +2026,15 @@
 			buildConfigurations = (
 				8C501CCB21311E2E0080D2DD /* Debug */,
 				8C501CCC21311E2E0080D2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C501CD5213132BF0080D2DD /* Build configuration list for PBXNativeTarget "601. 摊平二维向量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C501CD6213132BF0080D2DD /* Debug */,
+				8C501CD7213132BF0080D2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
