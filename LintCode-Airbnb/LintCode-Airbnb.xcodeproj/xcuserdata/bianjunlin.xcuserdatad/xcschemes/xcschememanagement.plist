@@ -9,12 +9,37 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>1029. Cheapest Flights Within K Stops.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 		<key>104. Merge K Sorted Lists.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>104. Merge K Sorted Lists.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>1049. Pyramid Transition Matrix.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>1049. Pyramid Transition Matrix.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>123. 单词搜索.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>123. 单词搜索.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
@@ -24,7 +49,17 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>127. 拓扑排序.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>132. 单词搜索 II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>132. 单词搜索 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
@@ -34,12 +69,27 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>134. LRU缓存策略.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>175. 翻转二叉树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>175. 翻转二叉树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>363. 接雨水.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>363. 接雨水.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
@@ -49,7 +99,17 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>380. 两个链表的交叉.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>392. 打劫房屋.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>392. 打劫房屋.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
@@ -59,7 +119,17 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>436. 最大正方形.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>442. 实现 Trie（前缀树）.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>442. 实现 Trie（前缀树）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
@@ -69,7 +139,17 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>540. 左旋右旋迭代器.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>541. 左旋右旋迭代器 II.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>541. 左旋右旋迭代器 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
@@ -79,37 +159,87 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>56. 两数之和.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>601. 摊平二维向量.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>23</integer>
+		</dict>
+		<key>601. 摊平二维向量.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>605. 序列重构.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>605. 序列重构.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
 		</dict>
 		<key>615. 课程表.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>615. 课程表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>616. 安排课程.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
+		<key>616. 安排课程.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>7. 二叉树的序列化和反序列化.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>20</integer>
+		</dict>
+		<key>7. 二叉树的序列化和反序列化.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
 		</dict>
 		<key>76. 最长上升子序列.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>22</integer>
+		</dict>
+		<key>76. 最长上升子序列.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
 		</dict>
 		<key>82. 落单的数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>82. 落单的数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>978. Basic Calculator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>978. Basic Calculator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
@@ -119,10 +249,20 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>980. Basic Calculator II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>LintCode-Airbnb.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>LintCode-Airbnb.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>

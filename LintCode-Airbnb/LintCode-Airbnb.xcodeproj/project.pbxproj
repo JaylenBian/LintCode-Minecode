@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C335EFC213811150040B856 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C335EFB213811150040B856 /* main.cpp */; };
 		8C501CB321305B360080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CB221305B360080D2DD /* main.cpp */; };
 		8C501CBE21310E120080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CBD21310E120080D2DD /* main.cpp */; };
 		8C501CC921311E2E0080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CC821311E2E0080D2DD /* main.cpp */; };
 		8C501CD4213132BF0080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CD3213132BF0080D2DD /* main.cpp */; };
+		8C501CDF213178AD0080D2DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C501CDE213178AD0080D2DD /* main.cpp */; };
 		8C5317F6212EE043000694EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5317F5212EE043000694EE /* main.cpp */; };
 		8C66D67521292DBC00B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67421292DBC00B66906 /* main.cpp */; };
 		8C66D6802129315400B66906 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C66D67F2129315400B66906 /* main.cpp */; };
@@ -34,6 +36,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C335EF7213811150040B856 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C501CAE21305B360080D2DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +73,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C501CCF213132BF0080D2DD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C501CDA213178AD0080D2DD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -253,6 +273,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C335EF9213811150040B856 /* 1049. Pyramid Transition Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1049. Pyramid Transition Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C335EFB213811150040B856 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C501CB021305B360080D2DD /* 175. 翻转二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "175. 翻转二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C501CB221305B360080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C501CBB21310E120080D2DD /* 76. 最长上升子序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "76. 最长上升子序列"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -261,6 +283,8 @@
 		8C501CC821311E2E0080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "601. 摊平二维向量"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C501CD3213132BF0080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C501CDC213178AD0080D2DD /* 605. 序列重构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "605. 序列重构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C501CDE213178AD0080D2DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C5317F3212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1029. Cheapest Flights Within K Stops"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5317F5212EE043000694EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C66D67221292DBC00B66906 /* 540. 左旋右旋迭代器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. 左旋右旋迭代器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,6 +328,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C335EF6213811150040B856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C501CAD21305B360080D2DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,6 +357,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C501CCE213132BF0080D2DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C501CD9213178AD0080D2DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,6 +513,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C335EFA213811150040B856 /* 1049. Pyramid Transition Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				8C335EFB213811150040B856 /* main.cpp */,
+			);
+			path = "1049. Pyramid Transition Matrix";
+			sourceTree = "<group>";
+		};
 		8C501CB121305B360080D2DD /* 175. 翻转二叉树 */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,6 +551,14 @@
 				8C501CD3213132BF0080D2DD /* main.cpp */,
 			);
 			path = "601. 摊平二维向量";
+			sourceTree = "<group>";
+		};
+		8C501CDD213178AD0080D2DD /* 605. 序列重构 */ = {
+			isa = PBXGroup;
+			children = (
+				8C501CDE213178AD0080D2DD /* main.cpp */,
+			);
+			path = "605. 序列重构";
 			sourceTree = "<group>";
 		};
 		8C5317F4212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
@@ -654,6 +708,8 @@
 				8C501CBC21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC721311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
 				8C501CD2213132BF0080D2DD /* 601. 摊平二维向量 */,
+				8C501CDD213178AD0080D2DD /* 605. 序列重构 */,
+				8C335EFA213811150040B856 /* 1049. Pyramid Transition Matrix */,
 				8CAE139121246D3B006BE59B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -685,6 +741,8 @@
 				8C501CBB21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC621311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
 				8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */,
+				8C501CDC213178AD0080D2DD /* 605. 序列重构 */,
+				8C335EF9213811150040B856 /* 1049. Pyramid Transition Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -732,6 +790,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C335EF8213811150040B856 /* 1049. Pyramid Transition Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C335EFF213811150040B856 /* Build configuration list for PBXNativeTarget "1049. Pyramid Transition Matrix" */;
+			buildPhases = (
+				8C335EF5213811150040B856 /* Sources */,
+				8C335EF6213811150040B856 /* Frameworks */,
+				8C335EF7213811150040B856 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1049. Pyramid Transition Matrix";
+			productName = "1049. Pyramid Transition Matrix";
+			productReference = 8C335EF9213811150040B856 /* 1049. Pyramid Transition Matrix */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C501CAF21305B360080D2DD /* 175. 翻转二叉树 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C501CB621305B360080D2DD /* Build configuration list for PBXNativeTarget "175. 翻转二叉树" */;
@@ -798,6 +873,23 @@
 			name = "601. 摊平二维向量";
 			productName = "601. 摊平二维向量";
 			productReference = 8C501CD1213132BF0080D2DD /* 601. 摊平二维向量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C501CDB213178AD0080D2DD /* 605. 序列重构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C501CE0213178AD0080D2DD /* Build configuration list for PBXNativeTarget "605. 序列重构" */;
+			buildPhases = (
+				8C501CD8213178AD0080D2DD /* Sources */,
+				8C501CD9213178AD0080D2DD /* Frameworks */,
+				8C501CDA213178AD0080D2DD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "605. 序列重构";
+			productName = "605. 序列重构";
+			productReference = 8C501CDC213178AD0080D2DD /* 605. 序列重构 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8C5317F2212EE043000694EE /* 1029. Cheapest Flights Within K Stops */ = {
@@ -1149,6 +1241,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = minecode;
 				TargetAttributes = {
+					8C335EF8213811150040B856 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					8C501CAF21305B360080D2DD = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -1159,6 +1254,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					8C501CD0213132BF0080D2DD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8C501CDB213178AD0080D2DD = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					8C5317F2212EE043000694EE = {
@@ -1259,11 +1357,21 @@
 				8C501CBA21310E120080D2DD /* 76. 最长上升子序列 */,
 				8C501CC521311E2E0080D2DD /* 7. 二叉树的序列化和反序列化 */,
 				8C501CD0213132BF0080D2DD /* 601. 摊平二维向量 */,
+				8C501CDB213178AD0080D2DD /* 605. 序列重构 */,
+				8C335EF8213811150040B856 /* 1049. Pyramid Transition Matrix */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C335EF5213811150040B856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C335EFC213811150040B856 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C501CAC21305B360080D2DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1293,6 +1401,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C501CD4213132BF0080D2DD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C501CD8213178AD0080D2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C501CDF213178AD0080D2DD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1459,11 +1575,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C335EFD213811150040B856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C335EFE213811150040B856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C501CB421305B360080D2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1472,7 +1606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1481,7 +1615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1490,7 +1624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1499,7 +1633,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1508,7 +1642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1517,7 +1651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1526,7 +1660,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C501CE1213178AD0080D2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C501CE2213178AD0080D2DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1535,7 +1687,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1544,7 +1696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1553,7 +1705,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1562,7 +1714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1571,7 +1723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1580,7 +1732,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1589,7 +1741,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1598,7 +1750,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1607,7 +1759,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1616,7 +1768,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1625,7 +1777,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1634,7 +1786,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1643,7 +1795,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1652,7 +1804,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1661,7 +1813,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1670,7 +1822,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1679,7 +1831,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1688,7 +1840,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1697,7 +1849,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1706,7 +1858,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1715,7 +1867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1724,7 +1876,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1733,7 +1885,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1742,7 +1894,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1751,7 +1903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1760,7 +1912,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1769,7 +1921,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1778,7 +1930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1787,7 +1939,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1796,7 +1948,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1914,7 +2066,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1923,7 +2075,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1932,7 +2084,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1941,7 +2093,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1950,7 +2102,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1959,7 +2111,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1968,7 +2120,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1977,7 +2129,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1986,7 +2138,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1995,7 +2147,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				DEVELOPMENT_TEAM = N93N6PML4V;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2003,6 +2155,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C335EFF213811150040B856 /* Build configuration list for PBXNativeTarget "1049. Pyramid Transition Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C335EFD213811150040B856 /* Debug */,
+				8C335EFE213811150040B856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C501CB621305B360080D2DD /* Build configuration list for PBXNativeTarget "175. 翻转二叉树" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2035,6 +2196,15 @@
 			buildConfigurations = (
 				8C501CD6213132BF0080D2DD /* Debug */,
 				8C501CD7213132BF0080D2DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C501CE0213178AD0080D2DD /* Build configuration list for PBXNativeTarget "605. 序列重构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C501CE1213178AD0080D2DD /* Debug */,
+				8C501CE2213178AD0080D2DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
