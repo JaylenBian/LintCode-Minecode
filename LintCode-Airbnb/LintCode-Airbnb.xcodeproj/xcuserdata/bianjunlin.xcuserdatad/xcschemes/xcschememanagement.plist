@@ -172,7 +172,7 @@
 		<key>601. 摊平二维向量.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>23</integer>
 		</dict>
 		<key>605. 序列重构.xcscheme</key>
 		<dict>
@@ -212,7 +212,7 @@
 		<key>7. 二叉树的序列化和反序列化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>21</integer>
 		</dict>
 		<key>76. 最长上升子序列.xcscheme</key>
 		<dict>
@@ -222,7 +222,7 @@
 		<key>76. 最长上升子序列.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>22</integer>
 		</dict>
 		<key>82. 落单的数.xcscheme</key>
 		<dict>
