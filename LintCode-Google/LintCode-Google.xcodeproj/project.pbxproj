@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
+		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC0644F221EC4E40031B9BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0643D221E64CD0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC06451221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "657. Insert Delete GetRandom O(1)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC06453221EC4E40031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC0644E221EC4E40031B9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				8CC0642F221E62EA0031B9BB /* LintCode-Google */,
 				8CC0643C221E64CD0031B9BB /* 1289. 原子的数量 */,
+				8CC06452221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				8CC0642D221E62EA0031B9BB /* LintCode-Google */,
 				8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */,
+				8CC06451221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				8CC0643D221E64CD0031B9BB /* main.cpp */,
 			);
 			path = "1289. 原子的数量";
+			sourceTree = "<group>";
+		};
+		8CC06452221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */ = {
+			isa = PBXGroup;
+			children = (
+				8CC06453221EC4E40031B9BB /* main.cpp */,
+			);
+			path = "657. Insert Delete GetRandom O(1)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC06450221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC06457221EC4E40031B9BB /* Build configuration list for PBXNativeTarget "657. Insert Delete GetRandom O(1)" */;
+			buildPhases = (
+				8CC0644D221EC4E40031B9BB /* Sources */,
+				8CC0644E221EC4E40031B9BB /* Frameworks */,
+				8CC0644F221EC4E40031B9BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "657. Insert Delete GetRandom O(1)";
+			productName = "657. Insert Delete GetRandom O(1)";
+			productReference = 8CC06451221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					8CC0643A221E64CD0031B9BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8CC06450221EC4E40031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				8CC0642C221E62EA0031B9BB /* LintCode-Google */,
 				8CC0643A221E64CD0031B9BB /* 1289. 原子的数量 */,
+				8CC06450221EC4E40031B9BB /* 657. Insert Delete GetRandom O(1) */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC0643E221E64CD0031B9BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0644D221EC4E40031B9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC06454221EC4E40031B9BB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +384,22 @@
 			};
 			name = Release;
 		};
+		8CC06455221EC4E40031B9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC06456221EC4E40031B9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +426,15 @@
 			buildConfigurations = (
 				8CC06440221E64CD0031B9BB /* Debug */,
 				8CC06441221E64CD0031B9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC06457221EC4E40031B9BB /* Build configuration list for PBXNativeTarget "657. Insert Delete GetRandom O(1)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC06455221EC4E40031B9BB /* Debug */,
+				8CC06456221EC4E40031B9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
