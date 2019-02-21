@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
+		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8CC0642B221E62EA0031B9BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8CC06439221E64CD0031B9BB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0643D221E64CD0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8CC0642A221E62EA0031B9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC06438221E64CD0031B9BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8CC0642F221E62EA0031B9BB /* LintCode-Google */,
+				8CC0643C221E64CD0031B9BB /* 1289. 原子的数量 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8CC0642D221E62EA0031B9BB /* LintCode-Google */,
+				8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				8CC06430221E62EA0031B9BB /* main.cpp */,
 			);
 			path = "LintCode-Google";
+			sourceTree = "<group>";
+		};
+		8CC0643C221E64CD0031B9BB /* 1289. 原子的数量 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0643D221E64CD0031B9BB /* main.cpp */,
+			);
+			path = "1289. 原子的数量";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 8CC0642D221E62EA0031B9BB /* LintCode-Google */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC0643A221E64CD0031B9BB /* 1289. 原子的数量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0643F221E64CD0031B9BB /* Build configuration list for PBXNativeTarget "1289. 原子的数量" */;
+			buildPhases = (
+				8CC06437221E64CD0031B9BB /* Sources */,
+				8CC06438221E64CD0031B9BB /* Frameworks */,
+				8CC06439221E64CD0031B9BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1289. 原子的数量";
+			productName = "1289. 原子的数量";
+			productReference = 8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
 					8CC0642C221E62EA0031B9BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8CC0643A221E64CD0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				8CC0642C221E62EA0031B9BB /* LintCode-Google */,
+				8CC0643A221E64CD0031B9BB /* 1289. 原子的数量 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC06431221E62EA0031B9BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC06437221E64CD0031B9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0643E221E64CD0031B9BB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +310,22 @@
 			};
 			name = Release;
 		};
+		8CC06440221E64CD0031B9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC06441221E64CD0031B9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +343,15 @@
 			buildConfigurations = (
 				8CC06435221E62EA0031B9BB /* Debug */,
 				8CC06436221E62EA0031B9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0643F221E64CD0031B9BB /* Build configuration list for PBXNativeTarget "1289. 原子的数量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC06440221E64CD0031B9BB /* Debug */,
+				8CC06441221E64CD0031B9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
