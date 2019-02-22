@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>1623. 数组中的最小距离.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>564. 组合总和 IV.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>4</integer>
 		</dict>
 		<key>657. Insert Delete GetRandom O(1).xcscheme_^#shared#^_</key>
 		<dict>
@@ -22,7 +27,7 @@
 		<key>913. 翻转游戏II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>914. 翻转游戏.xcscheme_^#shared#^_</key>
 		<dict>
