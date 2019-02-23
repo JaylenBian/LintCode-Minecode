@@ -25,23 +25,18 @@ using namespace std;
 //
 class Solution {
 public:
-    vector<int> nextGreaterElement(vector<int> &nums1, vector<int> &nums2) {
-        stack<int> lower;
-        map<int, int> matched;
-        for (int i = 0; i < nums2.size(); ++i) {
-            while (!lower.empty() && lower.top() < nums2[i]) {
-                matched[lower.top()] = nums2[i];
-                lower.pop();
+    vector<int> nextGreaterElements(vector<int> &nums) {
+        if (nums.size() == 0) return {};
+        
+        stack<int> st;
+        vector<int> res = vector<int>(nums.size(), -1);
+        for (int i = 0; i < nums.size() * 2; ++i) {
+            int num = nums[i % nums.size()];
+            while (!st.empty() && nums[st.top()] < num) {
+                res[st.top()] = num;
+                st.pop();
             }
-            lower.push(nums2[i]);
-        }
-        vector<int> res = vector<int>(nums1.size());
-        for (int i = 0; i < nums1.size(); ++i) {
-            if (matched.find(nums1[i]) != matched.end()) {
-                res[i] = matched[nums1[i]];
-            } else {
-                res[i] = -1;
-            }
+            if (i < nums.size()) st.push(i);
         }
         return res;
     }
@@ -51,17 +46,14 @@ private:
 };
 
 /// Tips:
-// 考虑如何遍历能获得nums2中，每个比自己大的元素的位置。比两层for循环效率更高的是，通过一个栈，始终保证栈顶元素比栈底元素小，当有一个更大的元素想要加入栈时，将栈内所有比其小的元素a全部出栈，同时通过哈希表保存这个比a大的数，即第一个比a大的数。从而实现找到下一个更大的数。
+// 由于是环状的，故遍历次数增加一倍。利用栈来存放idx，直接操作idx而不是数字，比对后结果可以直接存进最终结果数组，优化时间消耗。
 
 
 int main() {
     
     Solution sol = Solution();
-//    vector<int> nums1 = {4, 1, 2};
-//    vector<int> nums2 = {1, 3, 4, 2};
-    vector<int> nums1 = {2, 4};
-    vector<int> nums2 = {1, 2, 3, 4};
-    auto res = sol.nextGreaterElement(nums1, nums2);
+    vector<int> nums1 = {1, 2, 1};
+    auto res = sol.nextGreaterElements(nums1);
     for (int i = 0; i < res.size(); ++i) {
         cout << res[i] << ",";
     }

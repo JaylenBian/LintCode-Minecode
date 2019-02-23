@@ -7,7 +7,12 @@
 		<key>1201. 下一个更大的数 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>6</integer>
+		</dict>
+		<key>1206. 下一个更大的数 I.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>1289. 原子的数量.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +22,7 @@
 		<key>1623. 数组中的最小距离.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>7</integer>
 		</dict>
 		<key>564. 组合总和 IV.xcscheme_^#shared#^_</key>
 		<dict>
