@@ -14,6 +14,7 @@
 		8CC0646A221EDB490031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06469221EDB490031B9BB /* main.cpp */; };
 		8CC06475221EE7030031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06474221EE7030031B9BB /* main.cpp */; };
 		8CC06480222067690031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0647F222067690031B9BB /* main.cpp */; };
+		8CC0648B2220708B0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0648A2220708B0031B9BB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,6 +81,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC064862220708B0031B9BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +107,8 @@
 		8CC06474221EE7030031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0647D222067690031B9BB /* 1623. 数组中的最小距离 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1623. 数组中的最小距离"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0647F222067690031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1201. 下一个更大的数 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0648A2220708B0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC064852220708B0031B9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -162,6 +181,7 @@
 				8CC06468221EDB490031B9BB /* 913. 翻转游戏II */,
 				8CC06473221EE7030031B9BB /* 564. 组合总和 IV */,
 				8CC0647E222067690031B9BB /* 1623. 数组中的最小距离 */,
+				8CC064892220708B0031B9BB /* 1201. 下一个更大的数 II */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,6 +196,7 @@
 				8CC06467221EDB490031B9BB /* 913. 翻转游戏II */,
 				8CC06472221EE7030031B9BB /* 564. 组合总和 IV */,
 				8CC0647D222067690031B9BB /* 1623. 数组中的最小距离 */,
+				8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +255,14 @@
 				8CC0647F222067690031B9BB /* main.cpp */,
 			);
 			path = "1623. 数组中的最小距离";
+			sourceTree = "<group>";
+		};
+		8CC064892220708B0031B9BB /* 1201. 下一个更大的数 II */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0648A2220708B0031B9BB /* main.cpp */,
+			);
+			path = "1201. 下一个更大的数 II";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +387,23 @@
 			productReference = 8CC0647D222067690031B9BB /* 1623. 数组中的最小距离 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC064872220708B0031B9BB /* 1201. 下一个更大的数 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0648C2220708B0031B9BB /* Build configuration list for PBXNativeTarget "1201. 下一个更大的数 II" */;
+			buildPhases = (
+				8CC064842220708B0031B9BB /* Sources */,
+				8CC064852220708B0031B9BB /* Frameworks */,
+				8CC064862220708B0031B9BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1201. 下一个更大的数 II";
+			productName = "1201. 下一个更大的数 II";
+			productReference = 8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -388,6 +434,9 @@
 					8CC0647C222067690031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC064872220708B0031B9BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC06428221E62EA0031B9BB /* Build configuration list for PBXProject "LintCode-Google" */;
@@ -409,6 +458,7 @@
 				8CC06466221EDB490031B9BB /* 913. 翻转游戏II */,
 				8CC06471221EE7030031B9BB /* 564. 组合总和 IV */,
 				8CC0647C222067690031B9BB /* 1623. 数组中的最小距离 */,
+				8CC064872220708B0031B9BB /* 1201. 下一个更大的数 II */,
 			);
 		};
 /* End PBXProject section */
@@ -467,6 +517,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC06480222067690031B9BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC064842220708B0031B9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0648B2220708B0031B9BB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +754,22 @@
 			};
 			name = Release;
 		};
+		8CC0648D2220708B0031B9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC0648E2220708B0031B9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -767,6 +841,15 @@
 			buildConfigurations = (
 				8CC06481222067690031B9BB /* Debug */,
 				8CC06482222067690031B9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0648C2220708B0031B9BB /* Build configuration list for PBXNativeTarget "1201. 下一个更大的数 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0648D2220708B0031B9BB /* Debug */,
+				8CC0648E2220708B0031B9BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
