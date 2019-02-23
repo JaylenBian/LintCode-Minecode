@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C464EE22221270300CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EE12221270300CCDC6E /* main.cpp */; };
+		8C464EED2221306D00CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EEC2221306D00CCDC6E /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -20,6 +21,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8C464EDD2221270300CCDC6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C464EE82221306D00CCDC6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -105,6 +115,8 @@
 /* Begin PBXFileReference section */
 		8C464EDF2221270300CCDC6E /* 1206. 下一个更大的数 I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1206. 下一个更大的数 I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464EE12221270300CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C464EEA2221306D00CCDC6E /* 1174. 下一个更大的元素 III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1174. 下一个更大的元素 III"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C464EEC2221306D00CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +137,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C464EDC2221270300CCDC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464EE72221306D00CCDC6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,6 +217,14 @@
 			path = "1206. 下一个更大的数 I";
 			sourceTree = "<group>";
 		};
+		8C464EEB2221306D00CCDC6E /* 1174. 下一个更大的元素 III✌️ */ = {
+			isa = PBXGroup;
+			children = (
+				8C464EEC2221306D00CCDC6E /* main.cpp */,
+			);
+			path = "1174. 下一个更大的元素 III✌️";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +237,7 @@
 				8CC0647E222067690031B9BB /* 1623. 数组中的最小距离 */,
 				8CC064892220708B0031B9BB /* 1201. 下一个更大的数 II */,
 				8C464EE02221270300CCDC6E /* 1206. 下一个更大的数 I */,
+				8C464EEB2221306D00CCDC6E /* 1174. 下一个更大的元素 III✌️ */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +254,7 @@
 				8CC0647D222067690031B9BB /* 1623. 数组中的最小距离 */,
 				8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */,
 				8C464EDF2221270300CCDC6E /* 1206. 下一个更大的数 I */,
+				8C464EEA2221306D00CCDC6E /* 1174. 下一个更大的元素 III */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +341,23 @@
 			name = "1206. 下一个更大的数 I";
 			productName = "1206. 下一个更大的数 I";
 			productReference = 8C464EDF2221270300CCDC6E /* 1206. 下一个更大的数 I */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C464EE92221306D00CCDC6E /* 1174. 下一个更大的元素 III */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C464EEE2221306D00CCDC6E /* Build configuration list for PBXNativeTarget "1174. 下一个更大的元素 III" */;
+			buildPhases = (
+				8C464EE62221306D00CCDC6E /* Sources */,
+				8C464EE72221306D00CCDC6E /* Frameworks */,
+				8C464EE82221306D00CCDC6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1174. 下一个更大的元素 III";
+			productName = "1174. 下一个更大的元素 III";
+			productReference = 8C464EEA2221306D00CCDC6E /* 1174. 下一个更大的元素 III */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
@@ -462,6 +508,9 @@
 					8C464EDE2221270300CCDC6E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8C464EE92221306D00CCDC6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC0642C221E62EA0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -509,6 +558,7 @@
 				8CC0647C222067690031B9BB /* 1623. 数组中的最小距离 */,
 				8CC064872220708B0031B9BB /* 1201. 下一个更大的数 II */,
 				8C464EDE2221270300CCDC6E /* 1206. 下一个更大的数 I */,
+				8C464EE92221306D00CCDC6E /* 1174. 下一个更大的元素 III */,
 			);
 		};
 /* End PBXProject section */
@@ -519,6 +569,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C464EE22221270300CCDC6E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464EE62221306D00CCDC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C464EED2221306D00CCDC6E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +656,22 @@
 			name = Debug;
 		};
 		8C464EE42221270300CCDC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C464EEF2221306D00CCDC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C464EF02221306D00CCDC6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -852,6 +926,15 @@
 			buildConfigurations = (
 				8C464EE32221270300CCDC6E /* Debug */,
 				8C464EE42221270300CCDC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C464EEE2221306D00CCDC6E /* Build configuration list for PBXNativeTarget "1174. 下一个更大的元素 III" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C464EEF2221306D00CCDC6E /* Debug */,
+				8C464EF02221306D00CCDC6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
