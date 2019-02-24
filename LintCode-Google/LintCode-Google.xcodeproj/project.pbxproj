@@ -17,6 +17,7 @@
 		8C464F422222A00C00CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F412222A00C00CCDC6E /* main.cpp */; };
 		8C464F4D2222AD5400CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F4C2222AD5400CCDC6E /* main.cpp */; };
 		8C464F582222B27700CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F572222B27700CCDC6E /* main.cpp */; };
+		8C464F632222F13500CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F622222F13500CCDC6E /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -110,6 +111,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C464F532222B27700CCDC6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C464F5E2222F13500CCDC6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -213,6 +223,8 @@
 		8C464F4C2222AD5400CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C464F552222B27700CCDC6E /* 104. 合并k个排序链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "104. 合并k个排序链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464F572222B27700CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C464F602222F13500CCDC6E /* 107. 单词拆分 I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "107. 单词拆分 I"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C464F622222F13500CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,6 +308,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C464F522222B27700CCDC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464F5D2222F13500CCDC6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,6 +460,14 @@
 			path = "104. 合并k个排序链表";
 			sourceTree = "<group>";
 		};
+		8C464F612222F13500CCDC6E /* 107. 单词拆分 I */ = {
+			isa = PBXGroup;
+			children = (
+				8C464F622222F13500CCDC6E /* main.cpp */,
+			);
+			path = "107. 单词拆分 I";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +489,7 @@
 				8C464F402222A00C00CCDC6E /* 52. 下一个排列✌️ */,
 				8C464F4B2222AD5400CCDC6E /* 75. 寻找峰值 */,
 				8C464F562222B27700CCDC6E /* 104. 合并k个排序链表 */,
+				8C464F612222F13500CCDC6E /* 107. 单词拆分 I */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -487,6 +515,7 @@
 				8C464F3F2222A00C00CCDC6E /* 52. 下一个排列 */,
 				8C464F4A2222AD5400CCDC6E /* 75. 寻找峰值 */,
 				8C464F552222B27700CCDC6E /* 104. 合并k个排序链表 */,
+				8C464F602222F13500CCDC6E /* 107. 单词拆分 I */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -728,6 +757,23 @@
 			productReference = 8C464F552222B27700CCDC6E /* 104. 合并k个排序链表 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C464F5F2222F13500CCDC6E /* 107. 单词拆分 I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C464F642222F13500CCDC6E /* Build configuration list for PBXNativeTarget "107. 单词拆分 I" */;
+			buildPhases = (
+				8C464F5C2222F13500CCDC6E /* Sources */,
+				8C464F5D2222F13500CCDC6E /* Frameworks */,
+				8C464F5E2222F13500CCDC6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "107. 单词拆分 I";
+			productName = "107. 单词拆分 I";
+			productReference = 8C464F602222F13500CCDC6E /* 107. 单词拆分 I */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC06434221E62EA0031B9BB /* Build configuration list for PBXNativeTarget "LintCode-Google" */;
@@ -903,6 +949,9 @@
 					8C464F542222B27700CCDC6E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8C464F5F2222F13500CCDC6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC0642C221E62EA0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -959,6 +1008,7 @@
 				8C464F3E2222A00C00CCDC6E /* 52. 下一个排列 */,
 				8C464F492222AD5400CCDC6E /* 75. 寻找峰值 */,
 				8C464F542222B27700CCDC6E /* 104. 合并k个排序链表 */,
+				8C464F5F2222F13500CCDC6E /* 107. 单词拆分 I */,
 			);
 		};
 /* End PBXProject section */
@@ -1041,6 +1091,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C464F582222B27700CCDC6E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464F5C2222F13500CCDC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C464F632222F13500CCDC6E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,6 +1322,22 @@
 			name = Debug;
 		};
 		8C464F5B2222B27700CCDC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C464F652222F13500CCDC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C464F662222F13500CCDC6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1599,6 +1673,15 @@
 			buildConfigurations = (
 				8C464F5A2222B27700CCDC6E /* Debug */,
 				8C464F5B2222B27700CCDC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C464F642222F13500CCDC6E /* Build configuration list for PBXNativeTarget "107. 单词拆分 I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C464F652222F13500CCDC6E /* Debug */,
+				8C464F662222F13500CCDC6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
