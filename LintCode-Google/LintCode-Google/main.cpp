@@ -34,7 +34,6 @@ private:
 /// Tips:
 //
 
-
 int main() {
     
     Solution sol = Solution();

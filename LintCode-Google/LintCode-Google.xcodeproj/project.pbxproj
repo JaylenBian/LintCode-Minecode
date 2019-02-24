@@ -12,6 +12,7 @@
 		8C464EF822219DDB00CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EF722219DDB00CCDC6E /* main.cpp */; };
 		8C464F16222285B400CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F15222285B400CCDC6E /* main.cpp */; };
 		8C464F2122228AC900CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F2022228AC900CCDC6E /* main.cpp */; };
+		8C464F2C22229B6500CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F2B22229B6500CCDC6E /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -60,6 +61,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C464F1C22228AC900CCDC6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C464F2722229B6500CCDC6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -153,6 +163,8 @@
 		8C464F15222285B400CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C464F1E22228AC900CCDC6E /* 30. 插入区间 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30. 插入区间"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464F2022228AC900CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C464F2922229B6500CCDC6E /* 28. Search a 2D Matrix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "28. Search a 2D Matrix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C464F2B22229B6500CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +213,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C464F1B22228AC900CCDC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464F2622229B6500CCDC6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,6 +325,14 @@
 			path = "30. 插入区间✌️";
 			sourceTree = "<group>";
 		};
+		8C464F2A22229B6500CCDC6E /* 28. Search a 2D Matrix✌️ */ = {
+			isa = PBXGroup;
+			children = (
+				8C464F2B22229B6500CCDC6E /* main.cpp */,
+			);
+			path = "28. Search a 2D Matrix✌️";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -322,6 +349,7 @@
 				8C464EF622219DDB00CCDC6E /* 5. 第k大元素✌️ */,
 				8C464F14222285B400CCDC6E /* 12. 带最小值操作的栈✌️ */,
 				8C464F1F22228AC900CCDC6E /* 30. 插入区间✌️ */,
+				8C464F2A22229B6500CCDC6E /* 28. Search a 2D Matrix✌️ */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -342,6 +370,7 @@
 				8C464EF522219DDB00CCDC6E /* 5. 第k大元素 */,
 				8C464F13222285B400CCDC6E /* 12. 带最小值操作的栈 */,
 				8C464F1E22228AC900CCDC6E /* 30. 插入区间 */,
+				8C464F2922229B6500CCDC6E /* 28. Search a 2D Matrix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -496,6 +525,23 @@
 			name = "30. 插入区间";
 			productName = "30. 插入区间";
 			productReference = 8C464F1E22228AC900CCDC6E /* 30. 插入区间 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C464F2822229B6500CCDC6E /* 28. Search a 2D Matrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C464F2D22229B6500CCDC6E /* Build configuration list for PBXNativeTarget "28. Search a 2D Matrix" */;
+			buildPhases = (
+				8C464F2522229B6500CCDC6E /* Sources */,
+				8C464F2622229B6500CCDC6E /* Frameworks */,
+				8C464F2722229B6500CCDC6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "28. Search a 2D Matrix";
+			productName = "28. Search a 2D Matrix";
+			productReference = 8C464F2922229B6500CCDC6E /* 28. Search a 2D Matrix */;
 			productType = "com.apple.product-type.tool";
 		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
@@ -658,6 +704,9 @@
 					8C464F1D22228AC900CCDC6E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8C464F2822229B6500CCDC6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC0642C221E62EA0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -709,6 +758,7 @@
 				8C464EF422219DDB00CCDC6E /* 5. 第k大元素 */,
 				8C464F12222285B400CCDC6E /* 12. 带最小值操作的栈 */,
 				8C464F1D22228AC900CCDC6E /* 30. 插入区间 */,
+				8C464F2822229B6500CCDC6E /* 28. Search a 2D Matrix */,
 			);
 		};
 /* End PBXProject section */
@@ -751,6 +801,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C464F2122228AC900CCDC6E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C464F2522229B6500CCDC6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C464F2C22229B6500CCDC6E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,6 +952,22 @@
 			name = Debug;
 		};
 		8C464F2422228AC900CCDC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C464F2E22229B6500CCDC6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C464F2F22229B6500CCDC6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1184,6 +1258,15 @@
 			buildConfigurations = (
 				8C464F2322228AC900CCDC6E /* Debug */,
 				8C464F2422228AC900CCDC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C464F2D22229B6500CCDC6E /* Build configuration list for PBXNativeTarget "28. Search a 2D Matrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C464F2E22229B6500CCDC6E /* Debug */,
+				8C464F2F22229B6500CCDC6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
