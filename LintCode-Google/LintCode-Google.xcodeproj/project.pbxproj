@@ -28,6 +28,7 @@
 		8CC06475221EE7030031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06474221EE7030031B9BB /* main.cpp */; };
 		8CC06480222067690031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0647F222067690031B9BB /* main.cpp */; };
 		8CC0648B2220708B0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0648A2220708B0031B9BB /* main.cpp */; };
+		8CC269EE2223AACE001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269ED2223AACE001EF864 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -220,6 +221,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC269E92223AACE001EF864 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -265,6 +275,8 @@
 		8CC0647F222067690031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1201. 下一个更大的数 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0648A2220708B0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC269EB2223AACE001EF864 /* 137. 克隆图 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "137. 克隆图"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC269ED2223AACE001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,6 +427,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC269E82223AACE001EF864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -546,6 +565,7 @@
 				8C464F612222F13500CCDC6E /* 107. 单词拆分 I */,
 				8C464F6C2223729000CCDC6E /* 109. 数字三角形✌️ */,
 				8C464F7722237A2300CCDC6E /* 124. 最长连续序列 */,
+				8CC269EC2223AACE001EF864 /* 137. 克隆图 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -574,6 +594,7 @@
 				8C464F602222F13500CCDC6E /* 107. 单词拆分 I */,
 				8C464F6B2223729000CCDC6E /* 109. 数字三角形 */,
 				8C464F7622237A2300CCDC6E /* 124. 最长连续序列 */,
+				8CC269EB2223AACE001EF864 /* 137. 克隆图 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -640,6 +661,14 @@
 				8CC0648A2220708B0031B9BB /* main.cpp */,
 			);
 			path = "1201. 下一个更大的数 II";
+			sourceTree = "<group>";
+		};
+		8CC269EC2223AACE001EF864 /* 137. 克隆图 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC269ED2223AACE001EF864 /* main.cpp */,
+			);
+			path = "137. 克隆图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1002,6 +1031,23 @@
 			productReference = 8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC269EA2223AACE001EF864 /* 137. 克隆图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC269F12223AACE001EF864 /* Build configuration list for PBXNativeTarget "137. 克隆图" */;
+			buildPhases = (
+				8CC269E72223AACE001EF864 /* Sources */,
+				8CC269E82223AACE001EF864 /* Frameworks */,
+				8CC269E92223AACE001EF864 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "137. 克隆图";
+			productName = "137. 克隆图";
+			productReference = 8CC269EB2223AACE001EF864 /* 137. 克隆图 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1074,6 +1120,9 @@
 					8CC064872220708B0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC269EA2223AACE001EF864 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC06428221E62EA0031B9BB /* Build configuration list for PBXProject "LintCode-Google" */;
@@ -1109,6 +1158,7 @@
 				8C464F5F2222F13500CCDC6E /* 107. 单词拆分 I */,
 				8C464F6A2223729000CCDC6E /* 109. 数字三角形 */,
 				8C464F7522237A2300CCDC6E /* 124. 最长连续序列 */,
+				8CC269EA2223AACE001EF864 /* 137. 克隆图 */,
 			);
 		};
 /* End PBXProject section */
@@ -1279,6 +1329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC0648B2220708B0031B9BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC269E72223AACE001EF864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC269EE2223AACE001EF864 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1732,6 +1790,22 @@
 			};
 			name = Release;
 		};
+		8CC269EF2223AACE001EF864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC269F02223AACE001EF864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1929,6 +2003,15 @@
 			buildConfigurations = (
 				8CC0648D2220708B0031B9BB /* Debug */,
 				8CC0648E2220708B0031B9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC269F12223AACE001EF864 /* Build configuration list for PBXNativeTarget "137. 克隆图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC269EF2223AACE001EF864 /* Debug */,
+				8CC269F02223AACE001EF864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
