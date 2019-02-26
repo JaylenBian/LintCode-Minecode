@@ -32,6 +32,7 @@
 		8CC269F92223B26E001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269F82223B26E001EF864 /* main.cpp */; };
 		8CC26A532225624D001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A522225624D001EF864 /* main.cpp */; };
 		8CC26A5E222569CF001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A5D222569CF001EF864 /* main.cpp */; };
+		8CC26A69222571AF001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A68222571AF001EF864 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -260,6 +261,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC26A64222571AF001EF864 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -313,6 +323,8 @@
 		8CC26A522225624D001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC26A5B222569CF001EF864 /* 374. 螺旋矩阵 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "374. 螺旋矩阵"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC26A5D222569CF001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC26A66222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "386. 最多有k个不同字符的最长子字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC26A68222571AF001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +503,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC26A63222571AF001EF864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -626,6 +645,7 @@
 				8CC269F72223B26E001EF864 /* 178. 图是否是树 */,
 				8CC26A512225624D001EF864 /* 363. 接雨水 */,
 				8CC26A5C222569CF001EF864 /* 374. 螺旋矩阵✌️ */,
+				8CC26A67222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -658,6 +678,7 @@
 				8CC269F62223B26D001EF864 /* 178. 图是否是树 */,
 				8CC26A502225624D001EF864 /* 363. 接雨水 */,
 				8CC26A5B222569CF001EF864 /* 374. 螺旋矩阵 */,
+				8CC26A66222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -756,6 +777,14 @@
 				8CC26A5D222569CF001EF864 /* main.cpp */,
 			);
 			path = "374. 螺旋矩阵✌️";
+			sourceTree = "<group>";
+		};
+		8CC26A67222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC26A68222571AF001EF864 /* main.cpp */,
+			);
+			path = "386. 最多有k个不同字符的最长子字符串";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1186,6 +1215,23 @@
 			productReference = 8CC26A5B222569CF001EF864 /* 374. 螺旋矩阵 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC26A65222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC26A6A222571AF001EF864 /* Build configuration list for PBXNativeTarget "386. 最多有k个不同字符的最长子字符串" */;
+			buildPhases = (
+				8CC26A62222571AF001EF864 /* Sources */,
+				8CC26A63222571AF001EF864 /* Frameworks */,
+				8CC26A64222571AF001EF864 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "386. 最多有k个不同字符的最长子字符串";
+			productName = "386. 最多有k个不同字符的最长子字符串";
+			productReference = 8CC26A66222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1270,6 +1316,9 @@
 					8CC26A5A222569CF001EF864 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC26A65222571AF001EF864 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC06428221E62EA0031B9BB /* Build configuration list for PBXProject "LintCode-Google" */;
@@ -1309,6 +1358,7 @@
 				8CC269F52223B26D001EF864 /* 178. 图是否是树 */,
 				8CC26A4F2225624D001EF864 /* 363. 接雨水 */,
 				8CC26A5A222569CF001EF864 /* 374. 螺旋矩阵 */,
+				8CC26A65222571AF001EF864 /* 386. 最多有k个不同字符的最长子字符串 */,
 			);
 		};
 /* End PBXProject section */
@@ -1511,6 +1561,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC26A5E222569CF001EF864 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC26A62222571AF001EF864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC26A69222571AF001EF864 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2028,6 +2086,22 @@
 			};
 			name = Release;
 		};
+		8CC26A6B222571AF001EF864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC26A6C222571AF001EF864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2261,6 +2335,15 @@
 			buildConfigurations = (
 				8CC26A60222569CF001EF864 /* Debug */,
 				8CC26A61222569CF001EF864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC26A6A222571AF001EF864 /* Build configuration list for PBXNativeTarget "386. 最多有k个不同字符的最长子字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC26A6B222571AF001EF864 /* Debug */,
+				8CC26A6C222571AF001EF864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
