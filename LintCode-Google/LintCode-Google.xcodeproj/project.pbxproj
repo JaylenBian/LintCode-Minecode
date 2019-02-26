@@ -30,6 +30,7 @@
 		8CC0648B2220708B0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0648A2220708B0031B9BB /* main.cpp */; };
 		8CC269EE2223AACE001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269ED2223AACE001EF864 /* main.cpp */; };
 		8CC269F92223B26E001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269F82223B26E001EF864 /* main.cpp */; };
+		8CC26A532225624D001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A522225624D001EF864 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -240,6 +241,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC26A4E2225624D001EF864 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -289,6 +299,8 @@
 		8CC269ED2223AACE001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC269F62223B26D001EF864 /* 178. 图是否是树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "178. 图是否是树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC269F82223B26E001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC26A502225624D001EF864 /* 363. 接雨水 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "363. 接雨水"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC26A522225624D001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +465,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC26A4D2225624D001EF864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -586,6 +605,7 @@
 				8C464F7722237A2300CCDC6E /* 124. 最长连续序列 */,
 				8CC269EC2223AACE001EF864 /* 137. 克隆图 */,
 				8CC269F72223B26E001EF864 /* 178. 图是否是树 */,
+				8CC26A512225624D001EF864 /* 363. 接雨水 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -616,6 +636,7 @@
 				8C464F7622237A2300CCDC6E /* 124. 最长连续序列 */,
 				8CC269EB2223AACE001EF864 /* 137. 克隆图 */,
 				8CC269F62223B26D001EF864 /* 178. 图是否是树 */,
+				8CC26A502225624D001EF864 /* 363. 接雨水 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -698,6 +719,14 @@
 				8CC269F82223B26E001EF864 /* main.cpp */,
 			);
 			path = "178. 图是否是树";
+			sourceTree = "<group>";
+		};
+		8CC26A512225624D001EF864 /* 363. 接雨水 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC26A522225624D001EF864 /* main.cpp */,
+			);
+			path = "363. 接雨水";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1094,6 +1123,23 @@
 			productReference = 8CC269F62223B26D001EF864 /* 178. 图是否是树 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC26A4F2225624D001EF864 /* 363. 接雨水 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC26A562225624D001EF864 /* Build configuration list for PBXNativeTarget "363. 接雨水" */;
+			buildPhases = (
+				8CC26A4C2225624D001EF864 /* Sources */,
+				8CC26A4D2225624D001EF864 /* Frameworks */,
+				8CC26A4E2225624D001EF864 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "363. 接雨水";
+			productName = "363. 接雨水";
+			productReference = 8CC26A502225624D001EF864 /* 363. 接雨水 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1172,6 +1218,9 @@
 					8CC269F52223B26D001EF864 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC26A4F2225624D001EF864 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC06428221E62EA0031B9BB /* Build configuration list for PBXProject "LintCode-Google" */;
@@ -1209,6 +1258,7 @@
 				8C464F7522237A2300CCDC6E /* 124. 最长连续序列 */,
 				8CC269EA2223AACE001EF864 /* 137. 克隆图 */,
 				8CC269F52223B26D001EF864 /* 178. 图是否是树 */,
+				8CC26A4F2225624D001EF864 /* 363. 接雨水 */,
 			);
 		};
 /* End PBXProject section */
@@ -1395,6 +1445,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC269F92223B26E001EF864 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC26A4C2225624D001EF864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC26A532225624D001EF864 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1880,6 +1938,22 @@
 			};
 			name = Release;
 		};
+		8CC26A542225624D001EF864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC26A552225624D001EF864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2095,6 +2169,15 @@
 			buildConfigurations = (
 				8CC269FA2223B26E001EF864 /* Debug */,
 				8CC269FB2223B26E001EF864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC26A562225624D001EF864 /* Build configuration list for PBXNativeTarget "363. 接雨水" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC26A542225624D001EF864 /* Debug */,
+				8CC26A552225624D001EF864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
