@@ -36,6 +36,7 @@
 		8CC26AA02226BD5A001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A9F2226BD5A001EF864 /* main.cpp */; };
 		8CC26AE522279D25001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26AE422279D25001EF864 /* main.cpp */; };
 		8CC26AF02227A3F2001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26AEF2227A3F2001EF864 /* main.cpp */; };
+		8CC26AFB22280DE8001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26AFA22280DE8001EF864 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -300,6 +301,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC26AF622280DE8001EF864 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -361,6 +371,8 @@
 		8CC26AE422279D25001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC26AED2227A3F2001EF864 /* 427. 生成括号 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "427. 生成括号"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC26AEF2227A3F2001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC26AF822280DE8001EF864 /* 428. x的n次幂 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "428. x的n次幂"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC26AFA22280DE8001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -567,6 +579,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8CC26AF522280DE8001EF864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -706,6 +725,7 @@
 				8CC26A9E2226BD5A001EF864 /* 401. 排序矩阵中的从小到大第k个数 */,
 				8CC26AE322279D25001EF864 /* 425. 电话号码的字母组合✌️ */,
 				8CC26AEE2227A3F2001EF864 /* 427. 生成括号 */,
+				8CC26AF922280DE8001EF864 /* 428. x的n次幂✌️ */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -742,6 +762,7 @@
 				8CC26A9D2226BD5A001EF864 /* 401. 排序矩阵中的从小到大第k个数 */,
 				8CC26AE222279D25001EF864 /* 425. 电话号码的字母组合 */,
 				8CC26AED2227A3F2001EF864 /* 427. 生成括号 */,
+				8CC26AF822280DE8001EF864 /* 428. x的n次幂 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -872,6 +893,14 @@
 				8CC26AEF2227A3F2001EF864 /* main.cpp */,
 			);
 			path = "427. 生成括号";
+			sourceTree = "<group>";
+		};
+		8CC26AF922280DE8001EF864 /* 428. x的n次幂✌️ */ = {
+			isa = PBXGroup;
+			children = (
+				8CC26AFA22280DE8001EF864 /* main.cpp */,
+			);
+			path = "428. x的n次幂✌️";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1370,6 +1399,23 @@
 			productReference = 8CC26AED2227A3F2001EF864 /* 427. 生成括号 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC26AF722280DE8001EF864 /* 428. x的n次幂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC26AFE22280DE8001EF864 /* Build configuration list for PBXNativeTarget "428. x的n次幂" */;
+			buildPhases = (
+				8CC26AF422280DE8001EF864 /* Sources */,
+				8CC26AF522280DE8001EF864 /* Frameworks */,
+				8CC26AF622280DE8001EF864 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "428. x的n次幂";
+			productName = "428. x的n次幂";
+			productReference = 8CC26AF822280DE8001EF864 /* 428. x的n次幂 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1466,6 +1512,9 @@
 					8CC26AEC2227A3F2001EF864 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC26AF722280DE8001EF864 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 8CC06428221E62EA0031B9BB /* Build configuration list for PBXProject "LintCode-Google" */;
@@ -1509,6 +1558,7 @@
 				8CC26A9C2226BD5A001EF864 /* 401. 排序矩阵中的从小到大第k个数 */,
 				8CC26AE122279D25001EF864 /* 425. 电话号码的字母组合 */,
 				8CC26AEC2227A3F2001EF864 /* 427. 生成括号 */,
+				8CC26AF722280DE8001EF864 /* 428. x的n次幂 */,
 			);
 		};
 /* End PBXProject section */
@@ -1743,6 +1793,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC26AF02227A3F2001EF864 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC26AF422280DE8001EF864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC26AFB22280DE8001EF864 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2324,6 +2382,22 @@
 			};
 			name = Release;
 		};
+		8CC26AFC22280DE8001EF864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC26AFD22280DE8001EF864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2593,6 +2667,15 @@
 			buildConfigurations = (
 				8CC26AF22227A3F2001EF864 /* Debug */,
 				8CC26AF32227A3F2001EF864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC26AFE22280DE8001EF864 /* Build configuration list for PBXNativeTarget "428. x的n次幂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC26AFC22280DE8001EF864 /* Debug */,
+				8CC26AFD22280DE8001EF864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
