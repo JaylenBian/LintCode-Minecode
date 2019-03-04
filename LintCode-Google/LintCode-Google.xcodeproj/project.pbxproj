@@ -20,6 +20,7 @@
 		8C464F632222F13500CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F622222F13500CCDC6E /* main.cpp */; };
 		8C464F6E2223729000CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F6D2223729000CCDC6E /* main.cpp */; };
 		8C464F7922237A2300CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F7822237A2300CCDC6E /* main.cpp */; };
+		8C6CC896222CE29100FE9668 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CC895222CE29100FE9668 /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -151,6 +152,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C464F7422237A2300CCDC6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C6CC891222CE29100FE9668 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -359,6 +369,8 @@
 		8C464F6D2223729000CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C464F7622237A2300CCDC6E /* 124. 最长连续序列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "124. 最长连续序列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464F7822237A2300CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "442. 实现 Trie（前缀树）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6CC895222CE29100FE9668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -485,6 +497,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C464F7322237A2300CCDC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CC890222CE29100FE9668 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -731,6 +750,14 @@
 			path = "124. 最长连续序列";
 			sourceTree = "<group>";
 		};
+		8C6CC894222CE29100FE9668 /* 442. 实现 Trie（前缀树）✌️ */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CC895222CE29100FE9668 /* main.cpp */,
+			);
+			path = "442. 实现 Trie（前缀树）✌️";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +793,7 @@
 				8CC26AF922280DE8001EF864 /* 428. x的n次幂✌️ */,
 				8CC26B04222815B9001EF864 /* 433. 岛屿的个数✌️ */,
 				8CC26B0F2228B18B001EF864 /* 434. 岛屿的个数II */,
+				8C6CC894222CE29100FE9668 /* 442. 实现 Trie（前缀树）✌️ */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -805,6 +833,7 @@
 				8CC26AF822280DE8001EF864 /* 428. x的n次幂 */,
 				8CC26B03222815B9001EF864 /* 433. 岛屿的个数 */,
 				8CC26B0E2228B18B001EF864 /* 434. 岛屿的个数II */,
+				8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1185,6 +1214,23 @@
 			productReference = 8C464F7622237A2300CCDC6E /* 124. 最长连续序列 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C6CC892222CE29100FE9668 /* 442. 实现 Trie（前缀树） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6CC899222CE29100FE9668 /* Build configuration list for PBXNativeTarget "442. 实现 Trie（前缀树）" */;
+			buildPhases = (
+				8C6CC88F222CE29100FE9668 /* Sources */,
+				8C6CC890222CE29100FE9668 /* Frameworks */,
+				8C6CC891222CE29100FE9668 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "442. 实现 Trie（前缀树）";
+			productName = "442. 实现 Trie（前缀树）";
+			productReference = 8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC06434221E62EA0031B9BB /* Build configuration list for PBXNativeTarget "LintCode-Google" */;
@@ -1556,6 +1602,9 @@
 					8C464F7522237A2300CCDC6E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8C6CC892222CE29100FE9668 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC0642C221E62EA0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1659,6 +1708,7 @@
 				8CC26AF722280DE8001EF864 /* 428. x的n次幂 */,
 				8CC26B02222815B9001EF864 /* 433. 岛屿的个数 */,
 				8CC26B0D2228B18B001EF864 /* 434. 岛屿的个数II */,
+				8C6CC892222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 			);
 		};
 /* End PBXProject section */
@@ -1765,6 +1815,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C464F7922237A2300CCDC6E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6CC88F222CE29100FE9668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6CC896222CE29100FE9668 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2124,6 +2182,22 @@
 			name = Debug;
 		};
 		8C464F7C22237A2300CCDC6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C6CC897222CE29100FE9668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C6CC898222CE29100FE9668 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2662,6 +2736,15 @@
 			buildConfigurations = (
 				8C464F7B22237A2300CCDC6E /* Debug */,
 				8C464F7C22237A2300CCDC6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6CC899222CE29100FE9668 /* Build configuration list for PBXNativeTarget "442. 实现 Trie（前缀树）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6CC897222CE29100FE9668 /* Debug */,
+				8C6CC898222CE29100FE9668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
