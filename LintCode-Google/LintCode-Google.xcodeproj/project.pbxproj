@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C213B3B222DFDA100CA87A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C213B3A222DFDA100CA87A9 /* main.cpp */; };
 		8C464EE22221270300CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EE12221270300CCDC6E /* main.cpp */; };
 		8C464EED2221306D00CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EEC2221306D00CCDC6E /* main.cpp */; };
 		8C464EF822219DDB00CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464EF722219DDB00CCDC6E /* main.cpp */; };
@@ -43,6 +44,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8C213B36222DFDA100CA87A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8C464EDD2221270300CCDC6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +353,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C213B38222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "460. 在排序数组中找最接近的K个数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C213B3A222DFDA100CA87A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C464EDF2221270300CCDC6E /* 1206. 下一个更大的数 I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1206. 下一个更大的数 I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C464EE12221270300CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C464EEA2221306D00CCDC6E /* 1174. 下一个更大的元素 III */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1174. 下一个更大的元素 III"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,6 +424,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8C213B35222DFDA100CA87A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C464EDC2221270300CCDC6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -646,6 +665,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C213B39222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */ = {
+			isa = PBXGroup;
+			children = (
+				8C213B3A222DFDA100CA87A9 /* main.cpp */,
+			);
+			path = "460. 在排序数组中找最接近的K个数";
+			sourceTree = "<group>";
+		};
 		8C464EE02221270300CCDC6E /* 1206. 下一个更大的数 I */ = {
 			isa = PBXGroup;
 			children = (
@@ -794,6 +821,7 @@
 				8CC26B04222815B9001EF864 /* 433. 岛屿的个数✌️ */,
 				8CC26B0F2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC894222CE29100FE9668 /* 442. 实现 Trie（前缀树）✌️ */,
+				8C213B39222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -834,6 +862,7 @@
 				8CC26B03222815B9001EF864 /* 433. 岛屿的个数 */,
 				8CC26B0E2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
+				8C213B38222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -993,6 +1022,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8C213B37222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C213B3E222DFDA100CA87A9 /* Build configuration list for PBXNativeTarget "460. 在排序数组中找最接近的K个数" */;
+			buildPhases = (
+				8C213B34222DFDA100CA87A9 /* Sources */,
+				8C213B35222DFDA100CA87A9 /* Frameworks */,
+				8C213B36222DFDA100CA87A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "460. 在排序数组中找最接近的K个数";
+			productName = "460. 在排序数组中找最接近的K个数";
+			productReference = 8C213B38222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8C464EDE2221270300CCDC6E /* 1206. 下一个更大的数 I */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C464EE52221270300CCDC6E /* Build configuration list for PBXNativeTarget "1206. 下一个更大的数 I" */;
@@ -1563,6 +1609,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
+					8C213B37222DFDA100CA87A9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8C464EDE2221270300CCDC6E = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1709,11 +1758,20 @@
 				8CC26B02222815B9001EF864 /* 433. 岛屿的个数 */,
 				8CC26B0D2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC892222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
+				8C213B37222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8C213B34222DFDA100CA87A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C213B3B222DFDA100CA87A9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C464EDB2221270300CCDC6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1981,6 +2039,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8C213B3C222DFDA100CA87A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C213B3D222DFDA100CA87A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8C464EE32221270300CCDC6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2623,6 +2697,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8C213B3E222DFDA100CA87A9 /* Build configuration list for PBXNativeTarget "460. 在排序数组中找最接近的K个数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C213B3C222DFDA100CA87A9 /* Debug */,
+				8C213B3D222DFDA100CA87A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8C464EE52221270300CCDC6E /* Build configuration list for PBXNativeTarget "1206. 下一个更大的数 I" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
