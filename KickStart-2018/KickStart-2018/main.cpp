@@ -23,20 +23,12 @@ using namespace std;
 
 /// Solution:
 //
-class Solution {
-public:
-
-
-private:
-
-};
 
 /// Tips:
 //
 
 int main() {
-
-    Solution sol = Solution();
+    
 
     return 0;
 }
