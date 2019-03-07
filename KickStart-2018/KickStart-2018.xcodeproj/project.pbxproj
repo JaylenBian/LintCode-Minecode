@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8C213B61222E3D1000CA87A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C213B60222E3D1000CA87A9 /* main.cpp */; };
 		8C213B79222E3DD500CA87A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C213B78222E3DD500CA87A9 /* main.cpp */; };
+		8C213B97222F559600CA87A9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C213B96222F559600CA87A9 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8C213B92222F559600CA87A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +57,8 @@
 		8C213B6B222E3DB800CA87A9 /* A. Event Digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A. Event Digits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C213B76222E3DD500CA87A9 /* Round A - 1.Even Ditgits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Round A - 1.Even Ditgits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C213B78222E3DD500CA87A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C213B94222F559600CA87A9 /* Round A - 2.Lucky Dip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Round A - 2.Lucky Dip"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C213B96222F559600CA87A9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8C213B91222F559600CA87A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +98,7 @@
 			children = (
 				8C213B5F222E3D1000CA87A9 /* KickStart-2018 */,
 				8C213B77222E3DD500CA87A9 /* Round A - 1.Even Ditgits */,
+				8C213B95222F559600CA87A9 /* Round A - 2.Lucky Dip */,
 				8C213B5E222E3D1000CA87A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +109,7 @@
 				8C213B5D222E3D1000CA87A9 /* KickStart-2018 */,
 				8C213B6B222E3DB800CA87A9 /* A. Event Digits */,
 				8C213B76222E3DD500CA87A9 /* Round A - 1.Even Ditgits */,
+				8C213B94222F559600CA87A9 /* Round A - 2.Lucky Dip */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +128,14 @@
 				8C213B78222E3DD500CA87A9 /* main.cpp */,
 			);
 			path = "Round A - 1.Even Ditgits";
+			sourceTree = "<group>";
+		};
+		8C213B95222F559600CA87A9 /* Round A - 2.Lucky Dip */ = {
+			isa = PBXGroup;
+			children = (
+				8C213B96222F559600CA87A9 /* main.cpp */,
+			);
+			path = "Round A - 2.Lucky Dip";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +192,23 @@
 			productReference = 8C213B76222E3DD500CA87A9 /* Round A - 1.Even Ditgits */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C213B93222F559600CA87A9 /* Round A - 2.Lucky Dip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C213B9A222F559600CA87A9 /* Build configuration list for PBXNativeTarget "Round A - 2.Lucky Dip" */;
+			buildPhases = (
+				8C213B90222F559600CA87A9 /* Sources */,
+				8C213B91222F559600CA87A9 /* Frameworks */,
+				8C213B92222F559600CA87A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Round A - 2.Lucky Dip";
+			productName = "Round A - 2.Lucky Dip";
+			productReference = 8C213B94222F559600CA87A9 /* Round A - 2.Lucky Dip */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -179,6 +225,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					8C213B75222E3DD500CA87A9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C213B93222F559600CA87A9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -198,6 +247,7 @@
 				8C213B5C222E3D1000CA87A9 /* KickStart-2018 */,
 				8C213B6A222E3DB800CA87A9 /* A. Event Digits */,
 				8C213B75222E3DD500CA87A9 /* Round A - 1.Even Ditgits */,
+				8C213B93222F559600CA87A9 /* Round A - 2.Lucky Dip */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C213B79222E3DD500CA87A9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C213B90222F559600CA87A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C213B97222F559600CA87A9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +446,22 @@
 			};
 			name = Release;
 		};
+		8C213B98222F559600CA87A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C213B99222F559600CA87A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,6 +497,15 @@
 			buildConfigurations = (
 				8C213B7B222E3DD500CA87A9 /* Debug */,
 				8C213B7C222E3DD500CA87A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C213B9A222F559600CA87A9 /* Build configuration list for PBXNativeTarget "Round A - 2.Lucky Dip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C213B98222F559600CA87A9 /* Debug */,
+				8C213B99222F559600CA87A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
