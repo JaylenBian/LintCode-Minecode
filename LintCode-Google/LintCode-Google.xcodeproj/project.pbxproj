@@ -30,6 +30,7 @@
 		8CC06475221EE7030031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06474221EE7030031B9BB /* main.cpp */; };
 		8CC06480222067690031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0647F222067690031B9BB /* main.cpp */; };
 		8CC0648B2220708B0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0648A2220708B0031B9BB /* main.cpp */; };
+		8CC0A236223EA215006A04C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0A235223EA215006A04C3 /* main.cpp */; };
 		8CC269EE2223AACE001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269ED2223AACE001EF864 /* main.cpp */; };
 		8CC269F92223B26E001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC269F82223B26E001EF864 /* main.cpp */; };
 		8CC26A532225624D001EF864 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC26A522225624D001EF864 /* main.cpp */; };
@@ -251,6 +252,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8CC0A231223EA215006A04C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8CC269E92223AACE001EF864 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +409,8 @@
 		8CC0647F222067690031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1201. 下一个更大的数 II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC0648A2220708B0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CC0A233223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "954. Insert Delete GetRandom O(1) - 允许重复"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC0A235223EA215006A04C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC269EB2223AACE001EF864 /* 137. 克隆图 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "137. 克隆图"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC269ED2223AACE001EF864 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC269F62223B26D001EF864 /* 178. 图是否是树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "178. 图是否是树"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -579,6 +591,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CC064852220708B0031B9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0A230223EA215006A04C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -822,6 +841,7 @@
 				8CC26B0F2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC894222CE29100FE9668 /* 442. 实现 Trie（前缀树）✌️ */,
 				8C213B39222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
+				8CC0A234223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -863,6 +883,7 @@
 				8CC26B0E2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 				8C213B38222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
+				8CC0A233223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -929,6 +950,14 @@
 				8CC0648A2220708B0031B9BB /* main.cpp */,
 			);
 			path = "1201. 下一个更大的数 II";
+			sourceTree = "<group>";
+		};
+		8CC0A234223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */ = {
+			isa = PBXGroup;
+			children = (
+				8CC0A235223EA215006A04C3 /* main.cpp */,
+			);
+			path = "954. Insert Delete GetRandom O(1) - 允许重复";
 			sourceTree = "<group>";
 		};
 		8CC269EC2223AACE001EF864 /* 137. 克隆图 */ = {
@@ -1413,6 +1442,23 @@
 			productReference = 8CC064882220708B0031B9BB /* 1201. 下一个更大的数 II */;
 			productType = "com.apple.product-type.tool";
 		};
+		8CC0A232223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC0A239223EA215006A04C3 /* Build configuration list for PBXNativeTarget "954. Insert Delete GetRandom O(1) - 允许重复" */;
+			buildPhases = (
+				8CC0A22F223EA215006A04C3 /* Sources */,
+				8CC0A230223EA215006A04C3 /* Frameworks */,
+				8CC0A231223EA215006A04C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "954. Insert Delete GetRandom O(1) - 允许重复";
+			productName = "954. Insert Delete GetRandom O(1) - 允许重复";
+			productReference = 8CC0A233223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC269EA2223AACE001EF864 /* 137. 克隆图 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC269F12223AACE001EF864 /* Build configuration list for PBXNativeTarget "137. 克隆图" */;
@@ -1678,6 +1724,9 @@
 					8CC064872220708B0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8CC0A232223EA215006A04C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC269EA2223AACE001EF864 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1759,6 +1808,7 @@
 				8CC26B0D2228B18B001EF864 /* 434. 岛屿的个数II */,
 				8C6CC892222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 				8C213B37222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
+				8CC0A232223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 			);
 		};
 /* End PBXProject section */
@@ -1945,6 +1995,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CC0648B2220708B0031B9BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC0A22F223EA215006A04C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC0A236223EA215006A04C3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2518,6 +2576,22 @@
 			};
 			name = Release;
 		};
+		8CC0A237223EA215006A04C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC0A238223EA215006A04C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8CC269EF2223AACE001EF864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2909,6 +2983,15 @@
 			buildConfigurations = (
 				8CC0648D2220708B0031B9BB /* Debug */,
 				8CC0648E2220708B0031B9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC0A239223EA215006A04C3 /* Build configuration list for PBXNativeTarget "954. Insert Delete GetRandom O(1) - 允许重复" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC0A237223EA215006A04C3 /* Debug */,
+				8CC0A238223EA215006A04C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
