@@ -22,6 +22,8 @@
 		8C464F6E2223729000CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F6D2223729000CCDC6E /* main.cpp */; };
 		8C464F7922237A2300CCDC6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C464F7822237A2300CCDC6E /* main.cpp */; };
 		8C6CC896222CE29100FE9668 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CC895222CE29100FE9668 /* main.cpp */; };
+		8C7E2A3D22446A1C0023C289 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E2A3C22446A1C0023C289 /* main.cpp */; };
+		8C7E2A4822446F5D0023C289 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E2A4722446F5D0023C289 /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -172,6 +174,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C6CC891222CE29100FE9668 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7E2A3822446A1C0023C289 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7E2A4322446F5D0023C289 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -393,6 +413,10 @@
 		8C464F7822237A2300CCDC6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "442. 实现 Trie（前缀树）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6CC895222CE29100FE9668 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7E2A3A22446A1C0023C289 /* 437. 书籍复印 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "437. 书籍复印"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7E2A3C22446A1C0023C289 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "437a. 任务分配"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7E2A4722446F5D0023C289 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -535,6 +559,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C6CC890222CE29100FE9668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A3722446A1C0023C289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A4222446F5D0023C289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -804,6 +842,22 @@
 			path = "442. 实现 Trie（前缀树）✌️";
 			sourceTree = "<group>";
 		};
+		8C7E2A3B22446A1C0023C289 /* 437. 书籍复印 */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E2A3C22446A1C0023C289 /* main.cpp */,
+			);
+			path = "437. 书籍复印";
+			sourceTree = "<group>";
+		};
+		8C7E2A4622446F5D0023C289 /* 437a. 任务分配 */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E2A4722446F5D0023C289 /* main.cpp */,
+			);
+			path = "437a. 任务分配";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -842,6 +896,8 @@
 				8C6CC894222CE29100FE9668 /* 442. 实现 Trie（前缀树）✌️ */,
 				8C213B39222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 				8CC0A234223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
+				8C7E2A3B22446A1C0023C289 /* 437. 书籍复印 */,
+				8C7E2A4622446F5D0023C289 /* 437a. 任务分配 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -884,6 +940,8 @@
 				8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 				8C213B38222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 				8CC0A233223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
+				8C7E2A3A22446A1C0023C289 /* 437. 书籍复印 */,
+				8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1306,6 +1364,40 @@
 			productReference = 8C6CC893222CE29100FE9668 /* 442. 实现 Trie（前缀树） */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7E2A3922446A1C0023C289 /* 437. 书籍复印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7E2A4022446A1C0023C289 /* Build configuration list for PBXNativeTarget "437. 书籍复印" */;
+			buildPhases = (
+				8C7E2A3622446A1C0023C289 /* Sources */,
+				8C7E2A3722446A1C0023C289 /* Frameworks */,
+				8C7E2A3822446A1C0023C289 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "437. 书籍复印";
+			productName = "437. 书籍复印";
+			productReference = 8C7E2A3A22446A1C0023C289 /* 437. 书籍复印 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8C7E2A4422446F5D0023C289 /* 437a. 任务分配 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7E2A4922446F5D0023C289 /* Build configuration list for PBXNativeTarget "437a. 任务分配" */;
+			buildPhases = (
+				8C7E2A4122446F5D0023C289 /* Sources */,
+				8C7E2A4222446F5D0023C289 /* Frameworks */,
+				8C7E2A4322446F5D0023C289 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "437a. 任务分配";
+			productName = "437a. 任务分配";
+			productReference = 8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC06434221E62EA0031B9BB /* Build configuration list for PBXNativeTarget "LintCode-Google" */;
@@ -1652,6 +1744,7 @@
 		8CC06425221E62EA0031B9BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "边俊林";
 				TargetAttributes = {
@@ -1698,6 +1791,12 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					8C6CC892222CE29100FE9668 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C7E2A3922446A1C0023C289 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C7E2A4422446F5D0023C289 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					8CC0642C221E62EA0031B9BB = {
@@ -1809,6 +1908,8 @@
 				8C6CC892222CE29100FE9668 /* 442. 实现 Trie（前缀树） */,
 				8C213B37222DFDA100CA87A9 /* 460. 在排序数组中找最接近的K个数 */,
 				8CC0A232223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
+				8C7E2A3922446A1C0023C289 /* 437. 书籍复印 */,
+				8C7E2A4422446F5D0023C289 /* 437a. 任务分配 */,
 			);
 		};
 /* End PBXProject section */
@@ -1931,6 +2032,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C6CC896222CE29100FE9668 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A3622446A1C0023C289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7E2A3D22446A1C0023C289 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A4122446F5D0023C289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7E2A4822446F5D0023C289 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2330,6 +2447,38 @@
 			name = Debug;
 		};
 		8C6CC898222CE29100FE9668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7E2A3E22446A1C0023C289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7E2A3F22446A1C0023C289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7E2A4A22446F5D0023C289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7E2A4B22446F5D0023C289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2902,6 +3051,24 @@
 			buildConfigurations = (
 				8C6CC897222CE29100FE9668 /* Debug */,
 				8C6CC898222CE29100FE9668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7E2A4022446A1C0023C289 /* Build configuration list for PBXNativeTarget "437. 书籍复印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7E2A3E22446A1C0023C289 /* Debug */,
+				8C7E2A3F22446A1C0023C289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7E2A4922446F5D0023C289 /* Build configuration list for PBXNativeTarget "437a. 任务分配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7E2A4A22446F5D0023C289 /* Debug */,
+				8C7E2A4B22446F5D0023C289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
