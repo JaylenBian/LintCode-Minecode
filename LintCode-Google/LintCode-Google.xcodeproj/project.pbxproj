@@ -24,6 +24,7 @@
 		8C6CC896222CE29100FE9668 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CC895222CE29100FE9668 /* main.cpp */; };
 		8C7E2A3D22446A1C0023C289 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E2A3C22446A1C0023C289 /* main.cpp */; };
 		8C7E2A4822446F5D0023C289 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E2A4722446F5D0023C289 /* main.cpp */; };
+		8C7E2A5E22464C270023C289 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E2A5D22464C270023C289 /* main.cpp */; };
 		8CC06431221E62EA0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06430221E62EA0031B9BB /* main.cpp */; };
 		8CC0643E221E64CD0031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0643D221E64CD0031B9BB /* main.cpp */; };
 		8CC06454221EC4E40031B9BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC06453221EC4E40031B9BB /* main.cpp */; };
@@ -192,6 +193,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8C7E2A4322446F5D0023C289 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8C7E2A5922464C270023C289 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -417,6 +427,8 @@
 		8C7E2A3C22446A1C0023C289 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "437a. 任务分配"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7E2A4722446F5D0023C289 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C7E2A5B22464C270023C289 /* 24. LFU缓存 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24. LFU缓存"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7E2A5D22464C270023C289 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0642D221E62EA0031B9BB /* LintCode-Google */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LintCode-Google"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC06430221E62EA0031B9BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8CC0643B221E64CD0031B9BB /* 1289. 原子的数量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1289. 原子的数量"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -573,6 +585,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8C7E2A4222446F5D0023C289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A5822464C270023C289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -858,6 +877,14 @@
 			path = "437a. 任务分配";
 			sourceTree = "<group>";
 		};
+		8C7E2A5C22464C270023C289 /* 24. LFU缓存 */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E2A5D22464C270023C289 /* main.cpp */,
+			);
+			path = "24. LFU缓存";
+			sourceTree = "<group>";
+		};
 		8CC06424221E62EA0031B9BB = {
 			isa = PBXGroup;
 			children = (
@@ -898,6 +925,7 @@
 				8CC0A234223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 				8C7E2A3B22446A1C0023C289 /* 437. 书籍复印 */,
 				8C7E2A4622446F5D0023C289 /* 437a. 任务分配 */,
+				8C7E2A5C22464C270023C289 /* 24. LFU缓存 */,
 				8CC0642E221E62EA0031B9BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -942,6 +970,7 @@
 				8CC0A233223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 				8C7E2A3A22446A1C0023C289 /* 437. 书籍复印 */,
 				8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */,
+				8C7E2A5B22464C270023C289 /* 24. LFU缓存 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1398,6 +1427,23 @@
 			productReference = 8C7E2A4522446F5D0023C289 /* 437a. 任务分配 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8C7E2A5A22464C270023C289 /* 24. LFU缓存 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7E2A6122464C270023C289 /* Build configuration list for PBXNativeTarget "24. LFU缓存" */;
+			buildPhases = (
+				8C7E2A5722464C270023C289 /* Sources */,
+				8C7E2A5822464C270023C289 /* Frameworks */,
+				8C7E2A5922464C270023C289 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24. LFU缓存";
+			productName = "24. LFU缓存";
+			productReference = 8C7E2A5B22464C270023C289 /* 24. LFU缓存 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8CC0642C221E62EA0031B9BB /* LintCode-Google */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC06434221E62EA0031B9BB /* Build configuration list for PBXNativeTarget "LintCode-Google" */;
@@ -1799,6 +1845,9 @@
 					8C7E2A4422446F5D0023C289 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					8C7E2A5A22464C270023C289 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					8CC0642C221E62EA0031B9BB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1910,6 +1959,7 @@
 				8CC0A232223EA215006A04C3 /* 954. Insert Delete GetRandom O(1) - 允许重复 */,
 				8C7E2A3922446A1C0023C289 /* 437. 书籍复印 */,
 				8C7E2A4422446F5D0023C289 /* 437a. 任务分配 */,
+				8C7E2A5A22464C270023C289 /* 24. LFU缓存 */,
 			);
 		};
 /* End PBXProject section */
@@ -2048,6 +2098,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C7E2A4822446F5D0023C289 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7E2A5722464C270023C289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7E2A5E22464C270023C289 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2479,6 +2537,22 @@
 			name = Debug;
 		};
 		8C7E2A4B22446F5D0023C289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C7E2A5F22464C270023C289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C7E2A6022464C270023C289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3069,6 +3143,15 @@
 			buildConfigurations = (
 				8C7E2A4A22446F5D0023C289 /* Debug */,
 				8C7E2A4B22446F5D0023C289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7E2A6122464C270023C289 /* Build configuration list for PBXNativeTarget "24. LFU缓存" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7E2A5F22464C270023C289 /* Debug */,
+				8C7E2A6022464C270023C289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
